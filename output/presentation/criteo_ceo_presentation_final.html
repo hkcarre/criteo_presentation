@@ -999,24 +999,51 @@
                 });
             }
 
-            // 2. Launches Chart
+            // 2. Launches Chart (Stacked "Layer Cake" - Recovered)
             const ctx2 = document.getElementById('launchesChart');
             if (ctx2) {
                 new Chart(ctx2, {
                     type: 'line',
                     data: {
-                        labels: ['2022', '2023', '2024'],
-                        datasets: [{
-                            label: 'Cumulative',
-                            data: [1200, 2100, 3100],
-                            borderColor: '#0066CC',
-                            backgroundColor: 'rgba(0, 102, 204, 0.2)',
-                            fill: true
-                        }]
+                        labels: ['Q1 22', 'Q2 22', 'Q3 22', 'Q4 22', 'Q1 23', 'Q2 23', 'Q3 23', 'Q4 23', 'Q1 24', 'Q2 24', 'Q3 24', 'Q4 24'],
+                        datasets: [
+                            {
+                                label: '2022 Cohort',
+                                data: [100, 300, 450, 500, 510, 520, 515, 520, 522, 525, 520, 522], // Base layer (Persistent)
+                                borderColor: '#0066CC', // Criteo Blue
+                                backgroundColor: 'rgba(0, 102, 204, 0.8)',
+                                fill: true,
+                                tension: 0.4
+                            },
+                            {
+                                label: '2023 Cohort',
+                                data: [0, 0, 0, 0, 200, 500, 800, 950, 980, 1000, 1020, 1050], // Middle layer
+                                borderColor: '#FF5722', // Criteo Orange
+                                backgroundColor: 'rgba(255, 87, 34, 0.8)',
+                                fill: true,
+                                tension: 0.4
+                            },
+                            {
+                                label: '2024 Cohort',
+                                data: [0, 0, 0, 0, 0, 0, 0, 0, 300, 800, 1200, 1600], // Newest layer
+                                borderColor: '#FFCCBC', // Very light orange
+                                backgroundColor: 'rgba(255, 204, 188, 0.8)',
+                                fill: true,
+                                tension: 0.4
+                            }
+                        ]
                     },
                     options: {
                         responsive: true,
-                        maintainAspectRatio: false
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: { display: true, position: 'top' },
+                            tooltip: { mode: 'index', intersect: false }
+                        },
+                        scales: {
+                            y: { stacked: true, beginAtZero: true, title: { display: true, text: 'Cumulative Clients' } },
+                            x: { grid: { display: false } }
+                        }
                     }
                 });
             }
