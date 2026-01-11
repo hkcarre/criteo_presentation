@@ -1,0 +1,63 @@
+ADVANCED ANALYSIS: REGION, CHURN, SEGMENTS
+==========================================
+
+1. RUSSIA DATA CHECK:
+   - Found 39984 records for Russia.
+   - Total Revenue: €1,510,802.27
+   - Competitor Clicks: 74,704,646
+
+2. CHURN PREDICTION (Leading Indicator Test):
+   Hypothesis: Competitor Clicks spike BEFORE Revenue drops.
+   Case Study: Client 31782
+   Date         Revenue         Comp Clicks     RPC       
+   --------------------------------------------------
+   2022-01-01   7405.90         0               inf       
+   2022-02-01   7684.67         0               inf       
+   2022-03-01   7134.21         0               inf       
+   2022-04-01   6625.20         0               inf       
+   2022-05-01   5898.41         0               inf       
+   2022-06-01   5563.91         0               inf       
+   2022-07-01   5630.65         0               inf       
+   2022-08-01   4874.13         0               inf       
+   2022-09-01   4902.57         0               inf       
+   2022-10-01   6427.41         0               inf       
+   2022-11-01   4923.35         0               inf       
+   2022-12-01   3074.77         0               inf       
+   2023-01-01   4922.20         706049          70.32     
+   2023-02-01   4879.55         513755          65.94     
+   2023-03-01   4236.88         692108          66.20     
+   2023-04-01   4362.26         725414          55.93     
+   2023-05-01   4521.26         672177          94.19     
+   2023-06-01   6506.50         736469          147.88    
+   2023-07-01   8257.12         888015          93.83     
+   2023-08-01   7373.77         750335          80.15     
+   2023-09-01   10354.50        693152          143.81    
+   2023-10-01   9947.04         702060          108.12    
+   2023-11-01   8295.72         779789          96.46     
+   2023-12-01   8037.47         549915          78.80     
+   2024-01-01   12566.23        994690          89.76     
+   2024-02-01   11858.88        808623          123.53    
+   2024-03-01   9152.87         1050872         0.05      
+   2024-04-01   7582.38         1520148         0.01      
+   2024-05-01   7839.99         1560987         0.01      
+   2024-06-01   7405.46         1775734         0.01      
+   2024-07-01   3691.58         805003          0.01      
+   2024-08-01   3950.27         214             0.00      
+   2024-09-01   6886.80         538982          0.01      
+   2024-10-01   3153.24         869744          0.01      
+
+   RESULT: Competitor Spike (2023-01-01) preceded Revenue Crash (2024-03-01).
+   LAG TIME: 14 Months.
+   CONCLUSION: Yes, we can see the competitor coming.
+
+3. SEGMENT LEVEL INSIGHTS (Actionable Shifts):
+    Segment  Avg RPC  Comp Intensity  Risk Ratio
+      Large     0.05        17497.78        0.62
+     Medium     0.05         6440.77        0.48
+Extra-Small     0.04         1032.71        0.46
+      Small     0.07         2724.94        0.30
+    Unknown      inf            0.00         NaN
+
+   INSIGHTS:
+   - High 'Risk Ratio' = Current revenue is fragile compared to competitor pressure.
+   - High 'Comp Intensity' = Where the battle is hottest.
