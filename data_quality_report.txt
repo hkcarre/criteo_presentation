@@ -1,0 +1,60 @@
+DATA QUALITY & RE-CALCULATION REPORT (CLEANED)
+===============================================
+
+2. TOP 10 CLIENTS WITH HIDDEN REVENUE LOSS:
+            hidden_loss  estimated_revenue_lost  corrected_revenue_lost              vertical
+client_id                                                                                    
+1303      3899491419.36             95433220.48           3994924639.84       TRAVEL SERVICES
+738       2935536489.04             51532643.41           2987069132.45       TRAVEL SERVICES
+20052     1084164568.99                25133.78           1084189702.77        CLASSIFIEDS/RE
+5354       731977853.15                37584.53            732015437.68               FASHION
+31782      713979092.88            969009536.32           1682988629.21        CLASSIFIEDS/RE
+79393      520275737.54              1528286.89            521804024.43       OTHERS - RETAIL
+8925       291051091.29               335573.45            291386664.74        CPG / NON-FOOD
+20035      260382695.28                 3889.63            260386584.91  CPG / FOOD&GROCERIES
+3048       101839712.37               100790.00            101940502.37               FASHION
+28653       85642423.62                 6613.15             85649036.77               FASHION
+
+3. CLIENT 31782 SPECIFIC CHECK:
+           hidden_loss  estimated_revenue_lost  corrected_revenue_lost        vertical
+client_id                                                                             
+31782     713979092.88            969009536.32           1682988629.21  CLASSIFIEDS/RE
+
+4. SECTOR RISK RE-EVALUATION (2024 Only):
+                      estimated_revenue_lost  corrected_revenue_lost   hidden_loss
+vertical                                                                          
+TRAVEL SERVICES                 146819299.78           1496121964.53 1349302664.75
+CLASSIFIEDS/RE                  189696874.18           1019723524.86  830026650.68
+OTHERS - RETAIL                   1915392.59            596182803.46  594267410.86
+FASHION                          10170126.32            388165347.58  377995221.26
+CPG / NON-FOOD                    5494727.18            131747000.87  126252273.69
+CPG / FOOD&GROCERIES                33830.25            101062080.61  101028250.37
+HOME & GARDEN                     9931348.48             74226510.29   64295161.81
+CLASSIFIEDS/GENERAL              11924761.19             53345956.00   41421194.81
+FOODS & GROCERIES                  590058.73             39086651.00   38496592.27
+DPT STORE & MKTPLACE             74205611.56             32515109.66  -41690501.90
+SERVICES PROVIDERS               38740205.56             31014223.46   -7725982.10
+CAR MAKER                          236501.08             13180645.74   12944144.66
+HOBBIES & LEISURES                 174903.70              6651428.77    6476525.07
+CE & TECHNOLOGY                   1773785.61              6621055.21    4847269.59
+TRAVEL AGENCIES                   1335759.83              4633034.55    3297274.72
+CAR DEALER                          90399.62              4602863.77    4512464.15
+CLASSIFIEDS/CAREER                 398215.63              3043020.02    2644804.40
+CLASSIFIEDS/AUTO                   351823.48              2864627.94    2512804.46
+OTHERS                             151998.22              2625396.59    2473398.36
+EQUIPMENT                           20017.11              1073030.31    1053013.20
+HOSPITALITY                         75367.60               381373.37     306005.77
+BANKING SERVICES                    35933.18               296975.21     261042.03
+LIFESTYLE/WELLBEING                 39674.84               278063.94     238389.10
+TRANSPORT                          429245.73               259887.30    -169358.43
+ENTERTAINMENT                      451267.42               150537.60    -300729.82
+GAMING & GAMBLING                  121997.56               111391.09     -10606.47
+HEALTH                               8517.35                41755.27      33237.92
+PAYMENT SERVICES                    21816.82                25957.66       4140.84
+TOYS                                    2.07                   19.82         17.74
+EDUCATION                               0.19                    6.86          6.67
+INTERNET & COMM.                        0.00                    0.00          0.00
+INVESTMENT SERVICES                     0.00                    0.00          0.00
+INSURANCE SERVICES                      0.00                    0.00          0.00
+TAX & ADVISORY                          0.00                    0.00          0.00
+

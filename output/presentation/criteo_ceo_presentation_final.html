@@ -685,13 +685,13 @@
                         style="background: white; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); padding: 0;">
                         <div
                             style="background: var(--criteo-orange); color: white; padding: 15px; border-radius: 8px 8px 0 0;">
-                            <h3 style="color: white; margin: 0;">② Supply Path Optimization</h3>
+                            <h3 style="color: white; margin: 0;">② Trailing-Value Risk Scoring</h3>
                         </div>
                         <div style="padding: 20px;">
-                            <p><strong>The Change:</strong> Force-migrate spend to Criteo Direct Bidder to cut middleman
-                                fees.</p>
-                            <p><strong>The Goal:</strong> 100% Fee Transparency. Neutralize competitor price advantages.
-                            </p>
+                            <p><strong>The Change:</strong> Switch risk formula from "Current RPC" to "Trailing 12-Month
+                                Value".</p>
+                            <p><strong>The Goal:</strong> Unmask the €1.5B hidden risk in Travel (Appendix F) and stop
+                                ignoring churned whales.</p>
                         </div>
                     </div>
                 </div>
@@ -989,6 +989,92 @@
                         </ul>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 17: APPENDIX F (DATA AUDIT) -->
+        <div class="slide" data-step="17">
+            <div class="slide-content">
+                <div class="insight-box"
+                    style="background: rgba(220, 53, 69, 0.1); border-left: 4px solid #dc3545; margin-bottom: 20px;">
+                    <strong>⚠ STRATEGIC RISK RE-ASSESSMENT:</strong> Standard metrics underestimate true churn risk by
+                    >90%.
+                </div>
+                <h1>APPENDIX F: Data Quality & "True Risk" Audit</h1>
+
+                <div class="grid-2">
+                    <div class="card">
+                        <h2>1. The "Churn Paradox" (Methodology Flaw)</h2>
+                        <p style="font-size: 14px; margin-bottom: 10px;"><strong>Issue:</strong> Standard "Revenue Lost"
+                            metric = <em>Competitor Clicks × Current RPC</em>. When a client churns, Criteo Revenue (and
+                            RPC) drops to zero, artificially zeroing out the "Risk" metric.</p>
+
+                        <div style="background: rgba(0,0,0,0.03); padding: 10px; border-radius: 6px;">
+                            <h3 style="color: #333; font-size: 16px; margin: 0 0 5px 0;">Case Study: Client 31782
+                                (Churned)</h3>
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+                                <span>Reported Risk (Current RPC):</span>
+                                <span style="font-weight: bold; color: #dc3545;">€12,562</span>
+                            </div>
+                            <div
+                                style="display: flex; justify-content: space-between; border-top: 1px solid #ddd; padding-top: 5px;">
+                                <span>True Risk (Trailing 12-M RPC):</span>
+                                <span style="font-weight: bold; color: #d0021b;">€153,736,269</span>
+                            </div>
+                            <p style="font-size: 12px; color: #666; margin-top: 5px;">*Using Trailing 12-Month Avg RPC
+                                of €101.13</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h2>2. Sector Impact (The "Travel" Crisis)</h2>
+                        <p style="font-size: 14px; margin-bottom: 10px;">Re-calculating with "Stable RPC" reveals the
+                            Travel sector is in a full-blown crisis, masked by value destruction.</p>
+                        <table style="width: 100%; border-collapse: collapse; font-size: 13px;">
+                            <thead>
+                                <tr style="border-bottom: 2px solid #ddd; text-align: left;">
+                                    <th style="padding: 5px;">Sector</th>
+                                    <th style="padding: 5px; color: #666;">Reported Risk (2024)</th>
+                                    <th style="padding: 5px; color: #d0021b;">Corrected Risk</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr style="border-bottom: 1px solid #eee;">
+                                    <td style="padding: 8px 5px;"><strong>Travel Services</strong></td>
+                                    <td style="padding: 8px 5px;">€146M</td>
+                                    <td style="padding: 8px 5px; font-weight: bold; color: #d0021b;">€1.5 BILLION</td>
+                                </tr>
+                                <tr style="border-bottom: 1px solid #eee;">
+                                    <td style="padding: 8px 5px;">Classifieds/RE</td>
+                                    <td style="padding: 8px 5px;">€189M</td>
+                                    <td style="padding: 8px 5px;">€1.0 BILLION</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="card" style="margin-top: 20px;">
+                    <h2>3. The "Hidden Stream" (Infinite RPC)</h2>
+                    <div style="display: flex; gap: 20px; align-items: center;">
+                        <div style="flex: 1;">
+                            <p style="font-size: 14px;"><strong>Finding:</strong> 15,985 records (~€11.5M Revenue) have
+                                <strong>Zero Clicks</strong>.
+                            </p>
+                            <p style="font-size: 14px;"><strong>Diagnosis:</strong> 81% of this revenue has NO
+                                attribution history (clicks) in the prior month.</p>
+                        </div>
+                        <div style="flex: 1; border-left: 2px solid #eee; padding-left: 20px;">
+                            <p style="font-size: 14px; color: #d0021b;"><strong>Strategic Gap:</strong> We are missing
+                                "View-Through" attribution. Clients are seeing value we aren't explicitly claiming
+                                credit for.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="page-number">17 / 17</div>
+                <div class="logo">CRITEO</div>
             </div>
         </div>
 

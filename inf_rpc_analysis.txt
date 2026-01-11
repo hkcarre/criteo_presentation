@@ -1,0 +1,27 @@
+ANALYSIS: 'INFINITE' RPC (Zero Clicks, Positive Revenue)
+=======================================================
+
+1. MAGNITUDE:
+   - Number of Records: 15985
+   - Total Revenue Involved: €11,473,535.79
+   - % of Total Business: 3.9474%
+
+2. SAMPLE RECORDS:
+     month  client_id             vertical  criteo_clicks  revenue  competitor_clicks
+2022-01-01      35193              FASHION              0     0.09                  0
+2022-01-01      39465 DPT STORE & MKTPLACE              0     0.05                  0
+2022-01-01      77330      CE & TECHNOLOGY              0     0.92                  0
+2022-01-01      31218        ENTERTAINMENT              0     0.01                  0
+2022-01-01      62457              FASHION              0     0.00                  0
+2022-01-01      81727              FASHION              0     0.00                  0
+2022-01-01      76581        HOME & GARDEN              0     0.00                  0
+2022-01-01      83266   SERVICES PROVIDERS              0     0.00                  0
+2022-01-01       1221      CE & TECHNOLOGY              0     0.00                  0
+2022-01-01      16053      CE & TECHNOLOGY              0     0.00                  0
+
+3. HYPOTHESIS VALIDATION (Attribution Lag):
+   - Records preceded by active clicks in prior month: 2946 (18.4%)
+   - Hypothesis: 18.4% of these cases explainable by 30-day post-click attribution window.
+
+4. SENIOR DATA SCIENTIST CONCLUSION:
+   - IMPACT IS MATERIAL. Investigate 'View-Through' settings or Bot traffic filtering.

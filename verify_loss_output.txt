@@ -1,0 +1,6 @@
+
+--- RECALCULATION ---
+Scenario A (Avg RPC * Clicks): €153,736,269.32
+Scenario B (Median RPC * Clicks): €143,187,040.90
+
+>>> CONFIRMED: Risk is > €150M using Trailing RPC. <<<
