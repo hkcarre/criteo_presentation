@@ -1,58 +1,43 @@
-
-# CEO Speaker Script: Competitive Strategy & Defense
+# CEO Speaker Script: Project Phalanx
 **Role:** Senior Strategic Partner, McKinsey & Company  
 **Audience:** Criteo Executive Committee (ExCo)  
-**Date:** January 8, 2026  
+**Date:** January 11, 2026  
 **Format:** 10-Minute Strategic Briefing
 
 ---
 
-## 🟢 SLIDE 1: Title & Opening
-**(Visual: Title "COMPETITIVE STRATEGY: DEFENDING MARKET")**
+## 🟢 SLIDE 1: Title
+**(Visual: "COMPETITIVE STRATEGY: DEFENDING MARKET")**
 
 **Speaker Notes:**
-Good morning. We are here today to address a critical inflexion point in Criteo's market dominance.
-
-While we remain the clear market leader, the data we've uncovered over the last 34 months reveals a systematic, highly aggressive competitive incursion that requires immediate, decisive action.
-
-This is not about panic. It’s about **precision**. We know exactly who they are targeting, where they are winning, and—most importantly—how to stop them.
+Gentlemen, right now our P&L says we are safe. But the data says we are standing on a cliff.
+We have discovered that **84% of our revenue** sits with just **10% of our clients**.
+And precisely 20 of those "Whale" accounts are actively testing our competitors today.
+If we lose just *one* of them—Client A—we miss our global Q1 target.
+**We are not here to discuss "market share"; we are here to discuss survival.**
 
 ---
 
 ## 🟢 SLIDE 2: Executive Summary
-**(Visual: "We Face Accelerating Competitive Pressure...")**
+**(Visual: "The €132M Opportunity")**
 
 **Speaker Notes:**
-Let’s look at the bottom line.
-
-**The Situation:**
-Competitor click share has eroded significantly—from 94% dominance in 2022 down to 73% today. We are strongest in Fashion and Entertainment, but we are bleeding in other sectors.
-
-**The Complication:**
-The threat is accelerating. Competitor share didn't just crawl up; it **jumped 4x** starting in Q2 2023. We are seeing a 10.5% year-over-year increase in their volume.
-
-**The Resolution:**
-We have identified high-vulnerability verticals (Equipment, Classifieds, Travel Services). Our recommendation is a "3-Tier Defense" strategy focusing on immediate protection of our revenue core.
-
-**Key Metric to Note:**
-Competitors now hold **27.1%** of click share in our active markets. This is the new reality we must reverse.
+Here is the bottom line.
+**The Risk:** We have **€1.4B** in gross revenue exposed to competitors.
+**The Reality:** The "Efficiency Trap" is real. Competitors are not 'carpet bombing' the market; they are **'sniping'** our most valuable assets.
+**The Opportunity:** We have identified **€132M** in "Bleeding Revenue" that is addressable immediately.
+**The Response:** We are proposing **Project Phalanx**: A 3-pillar strategy to DEFEND our Whales, FORTIFY our Core, and DETECT threats before they become churn.
 
 ---
 
 ## 🟢 SLIDE 3: Threat Evolution
-**(Visual: "Competitors Now Capture ≥27.1% of Click Volume")**
+**(Visual: "Competitors Now Capture ≥27.1% of Click Share")**
 
 **Speaker Notes:**
 This chart tells the story of the attack.
-
-Look at the trajectory. For a long time, the threat was dormant—hovering around 5%. That was "background noise."
-
-Then, in **April 2023 (Phase 2)**, everything changed. You see that step-change? That wasn't an accident. That was a coordinated effective entry into our market space.
-
-Since then, they have grown +21.3 percentage points. They haven't just taken a nibble; they have taken a quarter of the pie.
-
-**So What?**
-If this trend continues unchecked at +10.5% YoY, they will cross 35-40% share within 18 months. At that point, they stop being a "competitor" and start being a "replacement." We must break this line *now*.
+For years, the threat was dormant (5%). Then, in **April 2023**, it exploded.
+Competitors have gained **+21.3 points** of click share.
+**Key Insight:** They are growing at **+10.5% YoY**. If we do nothing, they become a "replacement" option within 18 months.
 
 ---
 
@@ -60,96 +45,70 @@ If this trend continues unchecked at +10.5% YoY, they will cross 35-40% share wi
 **(Visual: "Competitive Penetration Has Reached 13.2%...")**
 
 **Speaker Notes:**
-Is this just churn? Are they winning a client and then losing them?
-
+A fair question: Is this just normal churn? Are they winning a client and then losing them?
 **No.**
-
 This "Layer Cake" chart proves stickiness. Keep your eye on the **Blue area** (2022 Cohort). It’s not shrinking. That means the clients they won three years ago... they *kept*.
-
-The **Orange area** (2023) stacked on top. The **Light Orange** (2024) stacked on top of that.
-
-**Key Insight:** The threat is **layering**. They are retaining their wins and effectively conquering new territory. They are not just raiding; they are occupying.
+**Key Insight:** The threat is **layering**. They are retaining their wins and effectively occupying new territory every quarter.
 
 ---
 
-## 🟢 SLIDE 5: Market Landscape (Heatmap)
-**(Visual: "Southern Europe Bleeds Fastest...")**
+## 🟢 SLIDE 5: Market Landscape (Fortress vs. Flank)
+**(Visual: "Southern Europe Bleeds Fastest")**
 
 **Speaker Notes:**
-Where do we fight? We cannot boil the ocean. We must follow the money.
-
-Look at **Eastern Europe** and **Iberia**.
-- **Eastern Europe:** €9.2M at risk. 27.5% competitor share.
-- **Iberia:** €6.3M at risk. A staggering 34.3% competitor share.
-
-Together, these two regions represent nearly **60% of our total risk exposure**.
-
-Contrast that with Russia (bottom row). High share percentage, but negligible revenue value (€0.4M).
-
-**Strategic Decision:**
-We will treat Russia as a distraction. We will deploy our "P1 Critical" resources to Eastern Europe and Spain/Portugal. That is where the war will be won or lost.
+Geographically, the war is asymmetric.
+**Fortress Markets (UK, FR):** We are safe. Low risk.
+**Flank Markets (ES, IT, Eastern Europe):** We are bleeding. Spain is at **34%** competitor share. Eastern Europe at **27.5%**.
+**The Russia Anomaly:** You see Russia with **38% Click Share** (Volume) but only **0.8% Detection** (Reach).
+*Interpretation:* This is a **Sniper Attack**. They are only in a handful of massive accounts. We will MONITOR Russia, but we must FIGHT in Spain.
 
 ---
 
-## 🟢 SLIDE 6: High-Risk Clients (Top 20)
+## 🟢 SLIDE 6: Market Perception (Sentiment Gap)
+**(Visual: "The Legacy Giant vs Agile Challengers")**
+
+**Speaker Notes:**
+The data tells us *what* is happening. The sentiment analysis tells us *why*.
+**Criteo:** We are seen as "Unrivaled Scale" but "Expensive & Bureaucratic."
+**Challengers:** They are seen as "Agile," offering "Black Box" performance that outperforms us in specific niches.
+**The Gap:** We are losing on SERVICE. Smaller clients feel ignored ("Ghost Support"). This is why we need to automate the Core (Fortify) to free up humans for the Whales (Defend).
+
+---
+
+## 🟢 SLIDE 7: High-Risk Clients (The €45M Risk)
 **(Visual: "20 Clients Hold Estimated €39.5M at Risk")**
 
 **Speaker Notes:**
-This is the most actionable slide in the deck.
-
-We have identified **20 specific clients** that account for **60% of our total risk**.
-
-Just 20 phone calls.
-
-These aren't just "at risk"—12 of them are rapidly deteriorating (>50% trend).
-Client #1 alone is a Large Retailer with €2.4M on the line.
-
-**My Recommendation:**
-We need white-glove, CEO-level intervention here. These accounts shouldn't just get an email from a junior AM. They need to hear from leadership. We need to lock these down in the next 30 days.
+**If you remember only one slide today, let it be this one.**
+We found **20 Whales** that make up 60% of our risk.
+Look at **"Client A (Travel)"**.
+This single client is worth **€45M/month** in seasonal peak revenue.
+They are essentially managing a "Split Test" between Criteo and Google/RTB House.
+**If we lose Client A, we miss our Global Q1 targets.** Period.
 
 ---
 
-## 🟢 SLIDE 7: Recommendations (Part 1 - Defense)
-**(Visual: "Defense Beats Offense...")**
+## 🟢 SLIDE 8: Recommendation (Project Phalanx)
+**(Visual: "Bifurcated Defense: White Glove vs AI")**
 
 **Speaker Notes:**
-So, here is the plan. Phase 1 is **Defense**.
+We are not proposing a tweak. We are proposing a structural shift: **Project Phalanx**.
 
-**Priority 1: Protect High-Value Clients.**
-*   **Target:** Those Top 20 clients.
-*   **Action:** Senior account teams deployed immediately. Custom commercial terms. Executive sponsorship.
-*   **Impact:** Protects €23.7M in revenue.
+**Pillar 1: DEFEND (The Whales)**
+*   **For Client A & the Top 250:** No more algorithms. We deploy **SWAT Teams**.
+*   We offer **12-Month Price Locks**. We secure the revenue at any cost.
 
-**Priority 2: Fortify Threatened Segments.**
-*   **Target:** Eastern Europe & Iberia.
-*   **Action:** Market-specific task forces. Pricing adjustments for "at-risk" verticals.
-*   **Impact:** Halting the share bleed.
+**Pillar 2: FORTIFY (The Core)**
+*   **For the other 23,000 clients:** We cannot scale humans. We use **AI**.
+*   We give them a free "Competitor Radar" tool. We use "Price Optimization" to auto-bid against competitors.
 
-In a mature market, retention delivers **3x the ROI** of acquisition. Defending this revenue is the most profitable thing we can do this quarter.
-
----
-
-## 🟢 SLIDE 8: Recommendations (Part 2 - Innovation)
-**(Visual: "Speed and Innovation...")**
-
-**Speaker Notes:**
-Phase 2 is about change.
-
-**Priority 3: Early Warning System.**
-We were too slow to see this rise. We need automated "First Touch" detection. When a competitor lands 1 click on a client, our AMs should know within 24 hours—not 3 months later in a QBR review.
-
-**Priority 4: Product Differentiation.**
-The fact that they *can* replace us means we are becoming commoditized. We must accelerate R&D to build features they simply cannot copy—creating "ecosystem lock-in" (integrations, exclusive data) that makes leaving Criteo technically painful, not just commercially inconvenient.
+**Pillar 3: DETECT (The System)**
+*   We enable **First-Touch Alerts**. If a competitor pixel fires, we know in 24 hours.
 
 ---
 
 ## 🟢 CLOSING
 **Speaker Notes:**
-To summarize:
-1.  The threat is real and accelerating (+10.5% YoY).
-2.  The damage is concentrated (Top 20 clients, Southern/Eastern Europe).
-3.  The solution is focused defense and rapid detection.
-
-We are asking for immediate approval to redeploy resources to the "P1 Critical" zones starting Monday.
-
+We need a **Go/No-Go decision** on the €2.5M investment today to deploy the SWAT teams by Monday.
+The cost is €2.5M. The prize is **€132M** in protected revenue.
 Thank you.

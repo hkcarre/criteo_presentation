@@ -1,0 +1,82 @@
+ANALYSIS DATE: 2026-01-11
+ROWS: 814436
+
+--- GLOBAL (ALL DATA) ---
+Correlation: 0.1238
+
+--- GLOBAL (ACTIVE THREATS ONLY, n=42387) ---
+Correlation: 0.1286
+
+--- BY MARKET (Active Only, Sorted Negative to Positive) ---
+market
+UK                0.056036
+IBERIA            0.108995
+MEA               0.126721
+DACH              0.189145
+BENELUX           0.244741
+FRANCE            0.250522
+ITALY             0.348382
+NORDICS           0.353939
+RUSSIA            0.550356
+EASTERN EUROPE    0.552425
+
+--- BY VERTICAL (Active Only) ---
+vertical
+PAYMENT SERVICES       -0.322753
+ENTERTAINMENT          -0.085235
+EDUCATION              -0.059442
+CPG / FOOD&GROCERIES   -0.046798
+OTHERS                 -0.002962
+CLASSIFIEDS/RE          0.048677
+HOME & GARDEN           0.057117
+HOSPITALITY             0.078309
+BANKING SERVICES        0.104731
+LIFESTYLE/WELLBEING     0.140991
+HOBBIES & LEISURES      0.141739
+DPT STORE & MKTPLACE    0.157746
+TRAVEL AGENCIES         0.175094
+OTHERS - RETAIL         0.188817
+HEALTH                  0.212015
+CLASSIFIEDS/CAREER      0.217004
+CLASSIFIEDS/GENERAL     0.231726
+FASHION                 0.236977
+EQUIPMENT               0.237711
+SERVICES PROVIDERS      0.268326
+GAMING & GAMBLING       0.280302
+TRAVEL SERVICES         0.322299
+TRANSPORT               0.325172
+CPG / NON-FOOD          0.379479
+TOYS                    0.411963
+FOODS & GROCERIES       0.430763
+CAR DEALER              0.508303
+CE & TECHNOLOGY         0.614771
+CAR MAKER               0.636227
+CLASSIFIEDS/AUTO        0.759062
+INSURANCE SERVICES           NaN
+INTERNET & COMM.             NaN
+INVESTMENT SERVICES          NaN
+
+--- BY SEGMENT (Active Only) ---
+segment
+Extra-Small    0.049319
+Medium         0.111729
+Large          0.153479
+Small          0.209749
+
+--- TOP BLEEDING CLUSTERS (Market + Segment) ---
+market   segment    
+RUSSIA   Medium        -0.006586
+ITALY    Extra-Small    0.023687
+IBERIA   Extra-Small    0.024794
+UK       Medium         0.045413
+IBERIA   Large          0.071099
+UK       Extra-Small    0.087614
+FRANCE   Extra-Small    0.105630
+IBERIA   Small          0.111036
+DACH     Large          0.120724
+MEA      Extra-Small    0.135129
+BENELUX  Extra-Small    0.145360
+DACH     Extra-Small    0.147197
+UK       Small          0.157945
+MEA      Large          0.172778
+FRANCE   Medium         0.179641
