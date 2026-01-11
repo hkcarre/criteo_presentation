@@ -1,0 +1,94 @@
+﻿python : Traceback (most 
+recent call last):
+At line:1 char:1
++ python 
+correlation_analysis.py 
+2>&1 | Out-File -FilePath 
+correlation_ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~
+    + CategoryInfo          
+    : NotSpe    cified: 
+(Traceba    ck (most recent 
+    call last)::Stri    ng) 
+[], RemoteEx    ception
+    + FullyQualified    
+ErrorId : Native    
+CommandError
+ 
+  File "C:\Dev\entrevista\co
+rrelation_analysis.py", 
+line 5, in <module>
+    df = pd.read_csv('CASE_S
+TUDY_RAW.csv', 
+low_memory=False)
+  File "C:\Users\helen\AppDa
+ta\Local\Programs\Python\Pyt
+hon314\Lib\site-packages\pan
+das\io\parsers\readers.py", 
+line 1026, in read_csv
+    return 
+_read(filepath_or_buffer, 
+kwds)
+  File "C:\Users\helen\AppDa
+ta\Local\Programs\Python\Pyt
+hon314\Lib\site-packages\pan
+das\io\parsers\readers.py", 
+line 620, in _read
+    parser = TextFileReader(
+filepath_or_buffer, **kwds)
+  File "C:\Users\helen\AppDa
+ta\Local\Programs\Python\Pyt
+hon314\Lib\site-packages\pan
+das\io\parsers\readers.py", 
+line 1620, in __init__
+    self._engine = 
+self._make_engine(f, 
+self.engine)
+                   ~~~~~~~~~
+~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\helen\AppDa
+ta\Local\Programs\Python\Pyt
+hon314\Lib\site-packages\pan
+das\io\parsers\readers.py", 
+line 1898, in _make_engine
+    return 
+mapping[engine](f, 
+**self.options)
+           ~~~~~~~~~~~~~~~^^
+^^^^^^^^^^^^^^^^^
+  File "C:\Users\helen\AppDa
+ta\Local\Programs\Python\Pyt
+hon314\Lib\site-packages\pan
+das\io\parsers\c_parser_wrap
+per.py", line 93, in 
+__init__
+    self._reader = 
+parsers.TextReader(src, 
+**kwds)
+                   ~~~~~~~~~
+~~~~~~~~~^^^^^^^^^^^^^
+  File 
+"pandas/_libs/parsers.pyx", 
+line 574, in pandas._libs.pa
+rsers.TextReader.__cinit__
+  File 
+"pandas/_libs/parsers.pyx", 
+line 663, in pandas._libs.pa
+rsers.TextReader._get_header
+  File 
+"pandas/_libs/parsers.pyx", 
+line 874, in pandas._libs.pa
+rsers.TextReader._tokenize_r
+ows
+  File 
+"pandas/_libs/parsers.pyx", 
+line 891, in pandas._libs.pa
+rsers.TextReader._check_toke
+nize_status
+  File 
+"pandas/_libs/parsers.pyx", 
+line 2053, in pandas._libs.p
+arsers.raise_parser_error
+PermissionError: [Errno 13] 
+Permission denied

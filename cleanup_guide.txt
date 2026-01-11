@@ -1,0 +1,74 @@
+MANUAL CLEANUP GUIDE FOR criteo_ceo_presentation.html
+================================================================================
+
+Total slide divs found: 47
+Expected: ~17
+Duplicates to remove: ~30
+
+CLEANUP STEPS:
+--------------------------------------------------------------------------------
+
+Step 1:
+  Lines 1066-1067
+  Action: Keep line 1066, remove 1 duplicate(s)
+
+Step 2:
+  Lines 1104-1110
+  Action: Keep line 1104, remove 2 duplicate(s)
+
+Step 3:
+  Lines 1186-1192
+  Action: Keep line 1186, remove 2 duplicate(s)
+
+Step 4:
+  Lines 1267-1273
+  Action: Keep line 1267, remove 2 duplicate(s)
+
+Step 5:
+  Lines 1339-1345
+  Action: Keep line 1339, remove 2 duplicate(s)
+
+Step 6:
+  Lines 1705-1711
+  Action: Keep line 1705, remove 2 duplicate(s)
+
+Step 7:
+  Lines 1803-1809
+  Action: Keep line 1803, remove 2 duplicate(s)
+
+Step 8:
+  Lines 1899-1905
+  Action: Keep line 1899, remove 2 duplicate(s)
+
+Step 9:
+  Lines 1994-2000
+  Action: Keep line 1994, remove 2 duplicate(s)
+
+Step 10:
+  Lines 2106-2112
+  Action: Keep line 2106, remove 2 duplicate(s)
+
+Step 11:
+  Lines 2219-2225
+  Action: Keep line 2219, remove 2 duplicate(s)
+
+Step 12:
+  Lines 2277-2283
+  Action: Keep line 2277, remove 2 duplicate(s)
+
+Step 13:
+  Lines 2452-2458
+  Action: Keep line 2452, remove 2 duplicate(s)
+
+Step 14:
+  Lines 2597-2603
+  Action: Keep line 2597, remove 2 duplicate(s)
+
+Step 15:
+  Lines 2745-2751
+  Action: Keep line 2745, remove 2 duplicate(s)
+
+Step 16:
+  Lines 2880-2886
+  Action: Keep line 2880, remove 2 duplicate(s)
+

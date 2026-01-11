@@ -1,0 +1,347 @@
+
+<script>
+// Wait for DOM and Chart.js to load
+document.addEventListener('DOMContentLoaded', function() {
+    
+
+// Chart 1: Threat Evolution - Waterfall Style
+const ctx1 = document.getElementById('threatEvolutionChart');
+if (ctx1) {
+    new Chart(ctx1, {
+        type: 'line',
+        data: {
+            labels: ['2022-01', '2022-04', '2022-07', '2022-10', '2023-01', '2023-04', '2023-07', '2023-10', '2024-01', '2024-04', '2024-07', '2024-10'],
+            datasets: [{
+                label: 'Revenue Lost %',
+                data: [117.63874046320825, 73.82560791621471, 43.28183939047797, 152.6901219033843, 640.9356236774997, 599.6616745399093, 1092.9536151022344, 1540.8296980226246, 1163.5048140285728, 558.1485588809945, 73.45760769732378, 757.8744576546278],
+                borderColor: '#FF5722',
+                backgroundColor: 'rgba(255, 87, 34, 0.1)',
+                borderWidth: 3,
+                fill: true,
+                tension: 0.4,
+                pointRadius: 5,
+                pointHoverRadius: 8,
+                pointBackgroundColor: '#FF5722',
+                pointBorderColor: '#fff',
+                pointBorderWidth: 2
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: true,
+            plugins: {
+                title: {
+                    display: true,
+                    text: 'Competitive Threat Evolution (Revenue Lost %)',
+                    font: { size: 16, weight: 'bold', family: 'Arial' },
+                    color: '#1A1A1A',
+                    padding: 20
+                },
+                legend: {
+                    display: false
+                },
+                tooltip: {
+                    backgroundColor: 'rgba(26, 26, 26, 0.9)',
+                    titleFont: { size: 14, weight: 'bold' },
+                    bodyFont: { size: 13 },
+                    padding: 12,
+                    displayColors: false,
+                    callbacks: {
+                        label: function(context) {
+                            return 'Revenue Lost: ' + context.parsed.y.toFixed(2) + '%';
+                        }
+                    }
+                }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    title: {
+                        display: true,
+                        text: 'Revenue Lost as % of Total Revenue',
+                        font: { size: 13, weight: '600' },
+                        color: '#666'
+                    },
+                    ticks: {
+                        callback: function(value) {
+                            return value.toFixed(0) + '%';
+                        },
+                        font: { size: 12 },
+                        color: '#666'
+                    },
+                    grid: {
+                        color: 'rgba(0, 0, 0, 0.05)'
+                    }
+                },
+                x: {
+                    title: {
+                        display: true,
+                        text: 'Month',
+                        font: { size: 13, weight: '600' },
+                        color: '#666'
+                    },
+                    ticks: {
+                        font: { size: 11 },
+                        color: '#666',
+                        maxRotation: 45,
+                        minRotation: 45
+                    },
+                    grid: {
+                        display: false
+                    }
+                }
+            }
+        }
+    });
+}
+
+
+
+// Chart 2: Competitor Launches - Stacked Area
+const ctx2 = document.getElementById('launchesChart');
+if (ctx2) {
+    new Chart(ctx2, {
+        type: 'line',
+        data: {
+            labels: ['2022-01', '2022-03', '2022-05', '2022-07', '2022-09', '2022-11', '2023-01', '2023-03', '2023-05', '2023-07', '2023-09', '2023-11', '2024-01', '2024-03', '2024-05', '2024-07', '2024-09'],
+            datasets: [{
+                label: 'Cumulative Launches',
+                data: [1196, 1391, 1600, 1734, 1851, 1979, 2065, 2202, 2310, 2423, 2516, 2642, 2703, 2796, 2889, 3017, 3114],
+                borderColor: '#0066CC',
+                backgroundColor: 'rgba(0, 102, 204, 0.2)',
+                borderWidth: 3,
+                fill: true,
+                tension: 0.4,
+                pointRadius: 0,
+                pointHoverRadius: 6
+            }, {
+                label: 'New Launches (Monthly)',
+                data: [1196, 88, 101, 62, 53, 70, 36, 79, 55, 65, 51, 57, 39, 40, 53, 67, 56],
+                borderColor: '#FF5722',
+                backgroundColor: 'rgba(255, 87, 34, 0.3)',
+                borderWidth: 2,
+                fill: false,
+                tension: 0.3,
+                pointRadius: 3,
+                pointHoverRadius: 7,
+                pointBackgroundColor: '#FF5722'
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: true,
+            plugins: {
+                title: {
+                    display: true,
+                    text: 'Competitor Launch Dynamics (Accelerating 16.8%)',
+                    font: { size: 16, weight: 'bold', family: 'Arial' },
+                    color: '#1A1A1A',
+                    padding: 20
+                },
+                legend: {
+                    display: true,
+                    position: 'top',
+                    labels: {
+                        font: { size: 12 },
+                        padding: 15,
+                        usePointStyle: true
+                    }
+                },
+                tooltip: {
+                    backgroundColor: 'rgba(26, 26, 26, 0.9)',
+                    padding: 12
+                }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    title: {
+                        display: true,
+                        text: 'Number of Launches',
+                        font: { size: 13, weight: '600' },
+                        color: '#666'
+                    },
+                    ticks: {
+                        font: { size: 12 },
+                        color: '#666'
+                    },
+                    grid: {
+                        color: 'rgba(0, 0, 0, 0.05)'
+                    }
+                },
+                x: {
+                    ticks: {
+                        font: { size: 11 },
+                        color: '#666',
+                        maxRotation: 45,
+                        minRotation: 45
+                    },
+                    grid: {
+                        display: false
+                    }
+                }
+            }
+        }
+    });
+}
+
+
+
+// Chart 3: Market Risk Landscape - Horizontal Bar
+const ctx3 = document.getElementById('marketHeatmapChart');
+if (ctx3) {
+    new Chart(ctx3, {
+        type: 'bar',
+        data: {
+            labels: ['FRANCE', 'IBERIA', 'EASTERN EUROPE', 'RUSSIA', 'ITALY', 'NORDICS', 'UK', 'DACH'],
+            datasets: [{
+                label: 'Revenue Lost %',
+                data: [2348.6061493475863, 647.9272847372963, 462.7151392495864, 363.28152351308484, 266.08708859501536, 12.6364020554144, 294.14670081358616, 120.63486372415923],
+                backgroundColor: ['#E64A19', '#E64A19', '#FF5722', '#FF5722', '#FF5722', '#FF8A65', '#FF5722', '#FF8A65'],
+                borderColor: ['#E64A19', '#E64A19', '#FF5722', '#FF5722', '#FF5722', '#FF8A65', '#FF5722', '#FF8A65'],
+                borderWidth: 1,
+                barThickness: 30
+            }]
+        },
+        options: {
+            indexAxis: 'y',
+            responsive: true,
+            maintainAspectRatio: true,
+            plugins: {
+                title: {
+                    display: true,
+                    text: 'Market Risk Heatmap (Revenue Lost % by Market)',
+                    font: { size: 16, weight: 'bold', family: 'Arial' },
+                    color: '#1A1A1A',
+                    padding: 20
+                },
+                legend: {
+                    display: false
+                },
+                tooltip: {
+                    backgroundColor: 'rgba(26, 26, 26, 0.9)',
+                    padding: 12,
+                    callbacks: {
+                        label: function(context) {
+                            return 'Revenue Lost: ' + context.parsed.x.toFixed(1) + '%';
+                        }
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    beginAtZero: true,
+                    title: {
+                        display: true,
+                        text: 'Revenue Lost as % of Total Revenue',
+                        font: { size: 13, weight: '600' },
+                        color: '#666'
+                    },
+                    ticks: {
+                        callback: function(value) {
+                            return value.toFixed(0) + '%';
+                        },
+                        font: { size: 12 },
+                        color: '#666'
+                    },
+                    grid: {
+                        color: 'rgba(0, 0, 0, 0.05)'
+                    }
+                },
+                y: {
+                    ticks: {
+                        font: { size: 12, weight: '600' },
+                        color: '#1A1A1A'
+                    },
+                    grid: {
+                        display: false
+                    }
+                }
+            }
+        }
+    });
+}
+
+
+
+// Chart 4: Client Risk Distribution - Horizontal Bar
+const ctx4 = document.getElementById('clientRiskChart');
+if (ctx4) {
+    new Chart(ctx4, {
+        type: 'bar',
+        data: {
+            labels: ['Client 1', 'Client 2', 'Client 3', 'Client 4', 'Client 5', 'Client 6', 'Client 7', 'Client 8', 'Client 9', 'Client 10'],
+            datasets: [{
+                label: 'Risk Score',
+                data: [98, 94, 89, 85, 82, 78, 75, 71, 68, 65],
+                backgroundColor: ['#E64A19', '#E64A19', '#E64A19', '#FF5722', '#FF5722', '#FF5722', '#FF5722', '#FF8A65', '#FF8A65', '#FF8A65'],
+                borderColor: ['#E64A19', '#E64A19', '#E64A19', '#FF5722', '#FF5722', '#FF5722', '#FF5722', '#FF8A65', '#FF8A65', '#FF8A65'],
+                borderWidth: 1,
+                barThickness: 25
+            }]
+        },
+        options: {
+            indexAxis: 'y',
+            responsive: true,
+            maintainAspectRatio: true,
+            plugins: {
+                title: {
+                    display: true,
+                    text: 'Top 10 High-Risk Clients (Multi-Factor Risk Score)',
+                    font: { size: 16, weight: 'bold', family: 'Arial' },
+                    color: '#1A1A1A',
+                    padding: 20
+                },
+                legend: {
+                    display: false
+                },
+                tooltip: {
+                    backgroundColor: 'rgba(26, 26, 26, 0.9)',
+                    padding: 12,
+                    callbacks: {
+                        label: function(context) {
+                            const revenue = [2.4, 2.1, 1.9, 1.7, 1.6, 1.4, 1.3, 1.2, 1.1, 1.0][context.dataIndex];
+                            return [
+                                'Risk Score: ' + context.parsed.x.toFixed(1),
+                                'Revenue at Risk: €' + revenue.toFixed(1) + 'M'
+                            ];
+                        }
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    beginAtZero: true,
+                    max: 100,
+                    title: {
+                        display: true,
+                        text: 'Risk Score (0-100)',
+                        font: { size: 13, weight: '600' },
+                        color: '#666'
+                    },
+                    ticks: {
+                        font: { size: 12 },
+                        color: '#666'
+                    },
+                    grid: {
+                        color: 'rgba(0, 0, 0, 0.05)'
+                    }
+                },
+                y: {
+                    ticks: {
+                        font: { size: 11, weight: '600' },
+                        color: '#1A1A1A'
+                    },
+                    grid: {
+                        display: false
+                    }
+                }
+            }
+        }
+    });
+}
+
+
+    console.log('✅ All charts initialized successfully!');
+});
+</script>

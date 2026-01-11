@@ -1,0 +1,79 @@
+﻿============================================================
+VALIDATING PRESENTATION CLAIMS AGAINST RAW DATA
+============================================================
+
+=== 1. CRITEO SHARE BY VERTICAL ===
+Checking if 75%+ Criteo share in 'core Retail segments' is accurate...
+                vertical  criteo_share  comp_share  total_clicks
+28        TAX & ADVISORY    100.000000    0.000000       2151511
+32   INVESTMENT SERVICES     99.999997    0.000003      65187654
+27    INSURANCE SERVICES     99.883549    0.116451       4145951
+31             EDUCATION     99.764149    0.235851     107837633
+33      PAYMENT SERVICES     99.629674    0.370326      11476113
+29                HEALTH     99.447652    0.552348      51897724
+10         ENTERTAINMENT     99.194264    0.805736      67669067
+6      FOODS & GROCERIES     97.641333    2.358667     911384250
+20     GAMING & GAMBLING     97.168968    2.831032      32065518
+14             TRANSPORT     96.701067    3.298933      60564075
+17   LIFESTYLE/WELLBEING     96.648769    3.351231     112612059
+16   CLASSIFIEDS/GENERAL     95.539102    4.460898   13407803454
+3                FASHION     95.390236    4.609764   23898652103
+19           HOSPITALITY     95.229933    4.770067     105285232
+5                 OTHERS     94.683498    5.316502     159807881
+24        CPG / NON-FOOD     93.183391    6.816609     526274515
+2                   TOYS     93.005401    6.994599      18655880
+18    SERVICES PROVIDERS     92.687526    7.312474      58707631
+7     HOBBIES & LEISURES     91.767812    8.232188     478816662
+9        TRAVEL AGENCIES     91.677575    8.322425     446229061
+23            CAR DEALER     91.134718    8.865282     130072575
+13      BANKING SERVICES     91.060768    8.939232      22542530
+30      INTERNET & COMM.     90.822019    9.177981        185531
+22  CPG / FOOD&GROCERIES     90.597400    9.402600     120604135
+26      CLASSIFIEDS/AUTO     90.136536    9.863464     126560997
+0          HOME & GARDEN     88.847239   11.152761     833029321
+25             CAR MAKER     85.521095   14.478905      30240443
+11  DPT STORE & MKTPLACE     84.932083   15.067917    1272918792
+1        CE & TECHNOLOGY     79.430058   20.569942     517982137
+8        OTHERS - RETAIL     78.091643   21.908357     850082657
+15    CLASSIFIEDS/CAREER     75.716578   24.283422     209234163
+4              EQUIPMENT     65.683397   34.316603      95478037
+12        CLASSIFIEDS/RE     59.031318   40.968682    1255887388
+21       TRAVEL SERVICES     53.907946   46.092054      28488802
+
+=== 2. UNIQUE VERTICALS IN DATA ===
+['HOME & GARDEN', 'CE & TECHNOLOGY', 'TOYS', 'FASHION', 'EQUIPMENT', 'OTHERS', 'FOODS & GROCERIES', 'HOBBIES & LEISURES', 'OTHERS - RETAIL', 'TRAVEL AGENCIES', 'ENTERTAINMENT', 'DPT STORE & MKTPLACE', 'CLASSIFIEDS/RE', 'BANKING SERVICES', 'TRANSPORT', 'CLASSIFIEDS/CAREER', 'CLASSIFIEDS/GENERAL', 'LIFESTYLE/WELLBEING', 'SERVICES PROVIDERS', 'HOSPITALITY', 'GAMING & GAMBLING', 'TRAVEL SERVICES', 'CPG / FOOD&GROCERIES', 'CAR DEALER', 'CPG / NON-FOOD', 'CAR MAKER', 'CLASSIFIEDS/AUTO', 'INSURANCE SERVICES', 'TAX & ADVISORY', 'HEALTH', 'INTERNET & COMM.', 'EDUCATION', 'INVESTMENT SERVICES', 'PAYMENT SERVICES']
+
+=== 3. OVERALL CRITEO SHARE ===
+Overall Criteo share: 93.3%
+Overall Competitor share: 6.7%
+
+=== 4. INVESTIGATING APRIL 2023 JUMP ===
+Competitor share around the jump:
+month
+2023-01-01     5.088675
+2023-02-01     4.309592
+2023-03-01     3.886649
+2023-04-01    20.746819
+2023-05-01    18.024562
+2023-06-01    17.744086
+Name: comp_share, dtype: float64
+
+=== 5. COVID TIMING CHECK ===
+Data range: Jan 2022 - Oct 2024
+April 2023 jump is 1.5 years AFTER COVID restrictions lifted in most of Europe
+COVID is unlikely to be the direct cause - more likely:
+  - New major competitor entered market
+  - UTM tracking methodology change
+  - Data collection improvement
+  - Client portfolio shift
+
+=== 6. DEFINING 'HIGH-VULNERABILITY SEGMENTS' ===
+Segment-level competitor share:
+       segment  comp_share  total_clicks
+2        Small   15.743344     354270896
+1  Extra-Small   14.586835    4000850068
+3        Large    6.085983   25435388268
+0       Medium    5.568421   16230021296
+4      Unknown    0.000000           954
+
+=== ANALYSIS COMPLETE ===

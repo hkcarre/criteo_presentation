@@ -1,0 +1,47 @@
+﻿Loading data...
+=== COMPREHENSIVE DATA PATTERN ANALYSIS ===
+Total records: 814,436
+Columns: ['Unnamed: 0', 'month', 'client_id', 'market', 'vertical', 'segment', 'revenue_euro', 'competitor_clicks', 'criteo_clicks', 'revenue_per_click', 'estimated_revenue_lost']
+
+=== 1. ZERO VALUE BREAKDOWN ===
+revenue_euro = 0: 525,988 (64.6%)
+competitor_clicks = 0: 772,049 (94.8%)
+criteo_clicks = 0: 540,850 (66.4%)
+revenue_per_click = 0: 1,123 (0.1%)
+
+=== 2. ROOT CAUSE: Inactive Month Pattern ===
+Records with zero Criteo clicks: 540,850 (66.4%)
+Of those, also zero revenue: 524,865 (97.0%)
+HYPOTHESIS: These are 'inactive months' - client in system but no transactions
+
+=== 3. SEGMENT PATTERN ===
+Medium: 59,585/140,318 (42.5%) zero-rev, avg=$712.18
+Extra-Small: 413,645/565,114 (73.2%) zero-rev, avg=$94.76
+Small: 10,813/20,468 (52.8%) zero-rev, avg=$609.09
+Large: 41,879/88,468 (47.3%) zero-rev, avg=$1409.70
+Unknown: 66/68 (97.1%) zero-rev, avg=$1.01
+
+=== 4. COMPETITOR DETECTION BY MARKET (UTM PATTERN) ===
+DACH: 8,080/143,888 (5.6%) have competitor activity
+FRANCE: 3,482/119,238 (2.9%) have competitor activity
+UK: 7,086/113,934 (6.2%) have competitor activity
+EASTERN EUROPE: 10,714/104,448 (10.3%) have competitor activity
+ITALY: 2,696/67,660 (4.0%) have competitor activity
+IBERIA: 2,812/58,752 (4.8%) have competitor activity
+MEA: 1,806/57,834 (3.1%) have competitor activity
+BENELUX: 2,472/57,052 (4.3%) have competitor activity
+NORDICS: 2,598/51,646 (5.0%) have competitor activity
+RUSSIA: 641/39,984 (1.6%) have competitor activity
+
+=== 5. TEXT/NON-NUMERIC ANOMALIES ===
+revenue_euro: No text anomalies detected
+competitor_clicks: No text anomalies detected
+criteo_clicks: No text anomalies detected
+revenue_per_click: No text anomalies detected
+estimated_revenue_lost: No text anomalies detected
+
+=== 6. MISSING VALUES ===
+revenue_per_click: 524,865 (64.45%) missing
+estimated_revenue_lost: 540,850 (66.41%) missing
+
+=== ANALYSIS COMPLETE ===

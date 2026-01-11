@@ -1,0 +1,45 @@
+{
+  "quality_metrics": {
+    "original_records": 814436,
+    "clean_records": 814436,
+    "removed_records": 0,
+    "removed_percentage": 0.0
+  },
+  "anomalies": [
+    {
+      "type": "Outliers in revenue_euro",
+      "count": 100502,
+      "severity": "MEDIUM",
+      "action": "INVESTIGATE",
+      "details": "100502 outliers (12.34%) in revenue_euro"
+    },
+    {
+      "type": "Outliers in competitor_clicks",
+      "count": 42387,
+      "severity": "MEDIUM",
+      "action": "INVESTIGATE",
+      "details": "42387 outliers (5.20%) in competitor_clicks"
+    },
+    {
+      "type": "Outliers in criteo_clicks",
+      "count": 127137,
+      "severity": "MEDIUM",
+      "action": "INVESTIGATE",
+      "details": "127137 outliers (15.61%) in criteo_clicks"
+    },
+    {
+      "type": "Outliers in revenue_per_click",
+      "count": 35297,
+      "severity": "MEDIUM",
+      "action": "INVESTIGATE",
+      "details": "35297 outliers (4.33%) in revenue_per_click"
+    },
+    {
+      "type": "Outliers in estimated_revenue_lost",
+      "count": 41925,
+      "severity": "MEDIUM",
+      "action": "INVESTIGATE",
+      "details": "41925 outliers (5.15%) in estimated_revenue_lost"
+    }
+  ]
+}

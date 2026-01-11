@@ -1,0 +1,14 @@
+[
+  {
+    "metric": "Clients with Competitor",
+    "status": "PASS",
+    "calculated": 3172,
+    "actual": 3172
+  },
+  {
+    "metric": "Total Clients",
+    "status": "PASS",
+    "calculated": 23954,
+    "actual": 23954
+  }
+]

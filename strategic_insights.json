@@ -1,0 +1,136 @@
+{
+  "insights": {
+    "executive_summary": {
+      "headline": "Competitive threat intensifying at 5.8%/month, eroding 757.9% of revenue",
+      "key_insights": [
+        "Revenue at risk growing 5.8% monthly",
+        "Competitor launches accelerated -63% vs. first half",
+        "Top 20 clients represent \u20ac972,622,570 in losses"
+      ],
+      "primary_recommendation": "3-tier defense: protect, fortify, detect"
+    },
+    "implications": {
+      "high_risk_markets": 4,
+      "high_risk_verticals": 6,
+      "high_risk_segments": 3
+    },
+    "alert_system": {
+      "metrics": [
+        {
+          "name": "Competitor First Touch",
+          "def": "First instance of competitor_clicks > 0 for a client",
+          "why": "Earliest possible warning signal"
+        },
+        {
+          "name": "Click Share Delta",
+          "def": "Change in competitor/(competitor + Criteo) clicks",
+          "why": "Measures competitive pressure intensity"
+        },
+        {
+          "name": "Revenue Velocity",
+          "def": "% change in monthly revenue (3-month rolling)",
+          "why": "Leading indicator of client health"
+        }
+      ],
+      "decision_logic": {
+        "P1_Critical": {
+          "conditions": "High-value client (>\u20ac100k/month) + First Touch OR Click Share >20% OR Revenue decline >15%",
+          "response_sla": "24 hours",
+          "owner": "Senior Account Director"
+        },
+        "P2_High": {
+          "conditions": "Medium-value client + First Touch OR Click Share 10-20% OR Revenue decline 10-15%",
+          "response_sla": "72 hours",
+          "owner": "Account Manager"
+        },
+        "P3_Monitor": {
+          "conditions": "Any client + First Touch OR Click Share 5-10%",
+          "response_sla": "1 week",
+          "owner": "Commercial Team (dashboard review)"
+        }
+      },
+      "delivery": {
+        "P1": [
+          "Email (immediate)",
+          "Slack (real-time)",
+          "Dashboard (flagged)"
+        ],
+        "P2": [
+          "Email (daily digest)",
+          "Dashboard (flagged)"
+        ],
+        "P3": [
+          "Dashboard only"
+        ]
+      },
+      "effectiveness_metrics": [
+        "Alert Precision: % of alerts leading to action",
+        "Response Time: Hours from alert to account contact",
+        "Revenue Saved: $ retained after alert-triggered intervention",
+        "False Positive Rate: % of alerts with no competitive threat"
+      ]
+    }
+  },
+  "recommendations": [
+    {
+      "rank": 1,
+      "title": "Protect High-Value Clients",
+      "rationale": "Top 20 clients represent \u20ac972,622,570 in losses",
+      "actions": [
+        "Deploy dedicated senior account teams for top 20 clients",
+        "Conduct competitive intelligence on client-specific threats",
+        "Develop customized value propositions and exclusive features"
+      ],
+      "timeline": "30 days",
+      "estimated_impact": "\u20ac583,573,542 revenue protected"
+    },
+    {
+      "rank": 2,
+      "title": "Fortify Threatened Segments",
+      "rationale": "Systematic vulnerabilities across markets and verticals",
+      "actions": [
+        "Design market-specific competitive responses",
+        "Optimize pricing and packaging for at-risk verticals",
+        "Accelerate product roadmap for high-threat segments"
+      ],
+      "timeline": "90 days",
+      "estimated_impact": "Reduce market share loss by 30-40%"
+    },
+    {
+      "rank": 3,
+      "title": "Deploy Early Warning System",
+      "rationale": "-63% acceleration in competitor activity",
+      "actions": [
+        "Implement automated competitor detection system",
+        "Real-time alerts to commercial teams",
+        "Playbook for rapid response protocols"
+      ],
+      "timeline": "60 days",
+      "estimated_impact": "Reduce response time from weeks to 24-48 hours"
+    },
+    {
+      "rank": 4,
+      "title": "Accelerate Product Differentiation",
+      "rationale": "13% penetration suggests commoditization risk",
+      "actions": [
+        "Develop exclusive capabilities competitors can't easily replicate",
+        "Build ecosystem lock-in through integrations",
+        "Investment in R&D for breakthrough innovations"
+      ],
+      "timeline": "6-12 months",
+      "estimated_impact": "Create sustainable 18-24 month competitive advantage"
+    },
+    {
+      "rank": 5,
+      "title": "Strategic Resource Reallocation",
+      "rationale": "Retention ROI exceeds acquisition in threatened segments",
+      "actions": [
+        "Redeploy 15-20% of growth budget to client defense",
+        "Prioritize retention metrics in incentive structures",
+        "Invest in competitive intelligence capabilities"
+      ],
+      "timeline": "Immediate",
+      "estimated_impact": "2-3x ROI vs. new customer acquisition"
+    }
+  ]
+}

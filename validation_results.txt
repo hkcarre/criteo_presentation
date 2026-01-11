@@ -1,0 +1,49 @@
+================================================================================
+CRITICAL DATA VALIDATION
+================================================================================
+
+1. OVERALL STATS:
+   Total Records: 814,436
+   Total Clients: 23,954
+   Total Competitor Clicks: 3,091,120,799
+   Total Criteo Clicks: 42,929,410,683
+   OVERALL Competitor Share: 6.72%
+
+2. CLIENT PENETRATION:
+   Clients with ANY competitor activity: 3,172
+   Penetration Rate: 13.24%
+
+3. MONTHLY TREND:
+   First Month (2022-01): 5.84%
+   Last Month (2024-10): 27.15%
+
+4. CHART DATA COMPARISON:
+   Presentation claims 5.8% -> 27.1%
+   Actual data shows: 5.84% -> 27.15%
+
+5. ALTERNATIVE PENETRATION CALC:
+   Clients with ANY competitor clicks ever: 3,172
+   As pct of total: 13.2%
+
+6. BREAKDOWN BY MARKET:
+   IBERIA              : 34.26%
+   RUSSIA              : 27.59%
+   EASTERN EUROPE      : 27.53%
+   ITALY               : 21.70%
+   NORDICS             : 16.61%
+   FRANCE              : 8.08%
+   UK                  : 3.41%
+   DACH                : 3.14%
+   MEA                 : 1.16%
+   BENELUX             : 0.81%
+
+================================================================================
+CRITICAL FINDING:
+================================================================================
+   ACTUAL competitor share (6.72%) differs from presentation (27.1%)
+   ACTUAL penetration (13.24%) differs from presentation (70.9%)
+
+   POSSIBLE EXPLANATIONS:
+   1. Presentation uses different data source/subset
+   2. Calculation methodology differs
+   3. Data was pre-aggregated differently

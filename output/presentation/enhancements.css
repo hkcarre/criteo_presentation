@@ -1,0 +1,57 @@
+/* McKinsey SO WHAT Box */
+.so-what-box {
+    background: linear-gradient(135deg, var(--criteo-orange) 0%, var(--criteo-orange-dark) 100%);
+    color: white;
+    padding: 25px 30px;
+    margin: 30px 0;
+    border-radius: 4px;
+    border-left: 6px solid #C63D17;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+    box-shadow: 0 4px 15px rgba(255, 87, 34, 0.3);
+}
+
+.so-what-label {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    opacity: 0.95;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+/* Updated Criteo Logo to match brand */
+.criteo-logo {
+    position: absolute;
+    top: 30px;
+    right: 60px;
+    font-size: 20px;
+    font-weight: 900;
+    color: var(--criteo-orange);
+    letter-spacing: 3px;
+    font-family: var(--font-primary);
+}
+
+/* Fix contrast - ensure labels are readable */
+.metric-label {
+    font-size: 14px;
+    color: var(--criteo-black); /* Changed from gray for better contrast */
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+/* Fix summary slide contrast */
+.summary-slide .metric-label {
+    color: white !important;
+}
+
+.summary-slide li {
+    color: white;
+}
+
+.summary-slide p {
+    color: #CCCCCC;
+}
