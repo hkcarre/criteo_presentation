@@ -1,0 +1,8 @@
+--- 3. TRIPLE CHECKED FIGURES ---
+A. Gross Estimated Loss (Total):     €1,555,049,373.48
+B. Calibrated Risk (Bleeding Only):  €30,633.96
+   (Segments with Correlation < -0.05)
+C. Whale Risk (Top 20 in Bleeding):  €30,633.96
+
+--- DETAIL: BLEEDING SEGMENTS ---
+- ('ITALY', 'PAYMENT SERVICES')

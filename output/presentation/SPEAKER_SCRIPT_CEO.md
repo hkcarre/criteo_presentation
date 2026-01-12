@@ -11,37 +11,48 @@
 
 **Speaker Notes:**
 Gentlemen, right now our P&L says we are safe. But the data says we are standing on a cliff.
-We have discovered that **84% of our revenue** sits with just **10% of our clients**.
+We have discovered that **77% of our revenue** sits with just **10% of our clients**.
 And precisely 20 of those "Whale" accounts are actively testing our competitors today.
 If we lose just *one* of them—Client A—we miss our global Q1 target.
 **We are not here to discuss "market share"; we are here to discuss survival.**
 
 ---
 
-## 🟢 SLIDE 2: Executive Summary
+## 🟢 SLIDE 2: Strategic Executive Brief
+**(Visual: "Situation / Complication / Resolution" Memo)**
+
+**Speaker Notes:**
+Gentlemen, Slide 2 is the strategy in a single page. 
+**The Situation:** On paper, we are market leaders. In reality, we are bleeding in the deep water.
+**The Complication:** That **+27%** competitor growth is not random market noise. It is a **"Sniper Attack"** targeting our top 10% of clients.
+**The Resolution:** We must pivot from "Blanket Defense" to "Surgical Strike". We are here to authorize **Project Phalanx**.
+
+---
+
+## 🟢 SLIDE 3: Situation Assessment
 **(Visual: "The €132M Opportunity")**
 
 **Speaker Notes:**
 Here is the bottom line.
 **The Risk:** We have **€1.4B** in gross revenue exposed to competitors.
 **The Reality:** The "Efficiency Trap" is real. Competitors are not 'carpet bombing' the market; they are **'sniping'** our most valuable assets.
-**The Opportunity:** We have identified **€132M** in "Bleeding Revenue" that is addressable immediately.
+**The Opportunity:** We have identified **€76.9M** in "Bleeding Revenue" that is addressable immediately.
 **The Response:** We are proposing **Project Phalanx**: A 3-pillar strategy to DEFEND our Whales, FORTIFY our Core, and DETECT threats before they become churn.
 
 ---
 
-## 🟢 SLIDE 3: Threat Evolution
+## 🟢 SLIDE 4: Threat Evolution
 **(Visual: "Competitors Now Capture ≥27.1% of Click Share")**
 
 **Speaker Notes:**
 This chart tells the story of the attack.
 For years, the threat was dormant (5%). Then, in **April 2023**, it exploded.
 Competitors have gained **+21.3 points** of click share.
-**Key Insight:** They are growing at **+10.5% YoY**. If we do nothing, they become a "replacement" option within 18 months.
+**Key Insight:** They are growing at **+27% YoY** (Oct '23 -> Oct '24). If we do nothing, they become a "replacement" option within 18 months.
 
 ---
 
-## 🟢 SLIDE 4: Competitor Launches (Trajectory)
+## 🟢 SLIDE 5: Competitor Launches (Trajectory)
 **(Visual: "Competitive Penetration Has Reached 13.2%...")**
 
 **Speaker Notes:**
@@ -52,7 +63,7 @@ This "Layer Cake" chart proves stickiness. Keep your eye on the **Blue area** (2
 
 ---
 
-## 🟢 SLIDE 5: Market Landscape (Fortress vs. Flank)
+## 🟢 SLIDE 6: Market Landscape (Fortress vs. Flank)
 **(Visual: "Southern Europe Bleeds Fastest")**
 
 **Speaker Notes:**
@@ -64,7 +75,7 @@ Geographically, the war is asymmetric.
 
 ---
 
-## 🟢 SLIDE 6: Market Perception (Sentiment Gap)
+## 🟢 SLIDE 7: Market Perception (Sentiment Gap)
 **(Visual: "The Legacy Giant vs Agile Challengers")**
 
 **Speaker Notes:**
@@ -75,20 +86,26 @@ The data tells us *what* is happening. The sentiment analysis tells us *why*.
 
 ---
 
-## 🟢 SLIDE 7: High-Risk Clients (The €45M Risk)
-**(Visual: "20 Clients Hold Estimated €39.5M at Risk")**
+## 🟢 SLIDE 8: Risk Waterfall (Net Value Bridge)
+**(Visual: "Waterfall Chart: Red is Risk, Green is Action")**
 
 **Speaker Notes:**
-**If you remember only one slide today, let it be this one.**
+**This bridge shows exactly what is at stake.**
+The **Red Bars** represent the €132M we *will* lose if we do nothing:
+1.  **-€92.5M** from Bleeding Markets.
+2.  **-€39.5M** from Key Account defections.
+The **Green Bar** is the impact of Project Phalanx:
+*   We recapture **+€23.7M** immediately by locking the Whales.
+**The Bottom Line:** We cannot save everything (gray area), but we *must* secure the green bar to hit Q1 targets.
 We found **20 Whales** that make up 60% of our risk.
 Look at **"Client A (Travel)"**.
-This single client is worth **€45M/month** in seasonal peak revenue.
+This single client is worth **€3.5M/year** (with a peak month of **€215k**).
 They are essentially managing a "Split Test" between Criteo and Google/RTB House.
 **If we lose Client A, we miss our Global Q1 targets.** Period.
 
 ---
 
-## 🟢 SLIDE 8: Recommendation (Project Phalanx)
+## 🟢 SLIDE 9: Recommendation (Project Phalanx)
 **(Visual: "Bifurcated Defense: White Glove vs AI")**
 
 **Speaker Notes:**
@@ -110,5 +127,5 @@ We are not proposing a tweak. We are proposing a structural shift: **Project Pha
 ## 🟢 CLOSING
 **Speaker Notes:**
 We need a **Go/No-Go decision** on the €2.5M investment today to deploy the SWAT teams by Monday.
-The cost is €2.5M. The prize is **€132M** in protected revenue.
+The cost is €2.5M. The prize is **€76.9M** in protected revenue.
 Thank you.

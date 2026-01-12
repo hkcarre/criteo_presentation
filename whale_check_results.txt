@@ -1,0 +1,3 @@
+Client A Loss: 75522.47
+Top 20 Risk Loss: 1469219279.85
+Top 20 Rev Revenue: 28664231.31119556

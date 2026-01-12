@@ -1,0 +1,91 @@
+Complete Waterfall Chart Tutorial for  AI Agents
+📋 TABLE OF  CONTENTS
+1. What is a Waterfall Chart?
+2. When to Use Waterfall Charts
+3. Data Structure Requirements
+4. Step-by-Step Code Tutorial
+5. Prompt Template for AI Agents
+6. Common Mistakes to Avoid
+7. Advanced Customizations
+🎯 WHA T IS A WATERF ALL  CHAR T?
+A waterfall chart shows how an initial value is af fected by a series of positive or negative changes, leading to a
+final value.
+Visual Pattern:
+Business Use Cases:
+Revenue breakdowns (T otal → Net after deductions)
+Budget analysis (Planned → Actual with variances)
+Risk cascades (T otal Exposure → Addressable Risk)
+Profit bridges (Gross → Net Profit)
+📊 WHEN TO USE WATERF ALL  CHAR TS
+✅ GOOD USE CASES:
+Sequential changes  to a starting valueStart Value: €1,000
+  - Cost A: -€200    → Running Total: €800
+  + Revenue B: +€150 → Running Total: €950
+  - Cost C: -€100    → Running Total: €850
+Final Value: €850
+Cumulative impact  of multiple factors
+Bridge analysis  (e.g., 2023 Revenue → 2024 Revenue)
+Risk funnels  (Total → High Priority subset)
+❌ AVOID WATERF ALL  FOR:
+Non-cumulative comparisons  (use bar charts)
+Time series tr ends  (use line charts)
+Part-to-whole r elationships  (use pie/stacked bar)
+🗂 DATA STRUCTURE REQUIREMENTS
+CORE DA TA MODEL:
+javascript
+CALCULA TED FIELDS (Requir ed for  Recharts):const  waterfallData = [
+  {
+    name: "Starting Value" ,      // Label for the bar
+    value: 1000 ,                 // Actual value (for first bar)
+    change: 0,                   // Change amount (0 for starting)
+    type: "total" ,               // Type: "total", "incr ease", "decr ease"
+    color: "#0066CC"              // Bar color
+  },
+  {
+    name: "Deduction A",
+    value: 0,                    // Not used for intermediate bars
+    change: -200,                // Negative = decr ease
+    type: "decrease" ,
+    color: "#D32F2F"
+  },
+  {
+    name: "Addition B" ,
+    value: 0,
+    change: +150,                // Positive = incr ease
+    type: "increase" ,
+    color: "#4CAF50"
+  },
+  {
+    name: "Final Value" ,
+    value: 0,
+    change: 0,                   // Final bar shows cumulative
+    type: "total" ,
+    color: "#FF5722"
+  }
+];
+javascript
+Key Fields Explained:
+start: Where the bar begins on Y-axis (cumulative from previous)
+end: Where the bar ends on Y-axis
+displayValue: The height of the visible bar (absolute value)
+cumulative: Running total (for reference lines)
+💻 STEP-BY -STEP  CODE TUT ORIAL
+STEP  1: Basic Waterfall Structur e// Transform data to include cumulative positions
+const  processedData = waterfallData .map((item, index ) => {
+  // Calculate running total up to this point
+  let cumulative = 0;
+  for (let i = 0; i <= index ; i++) {
+    cumulative += waterfallData [i].value  || waterfallData [i].change ;
+  }
+  
+  return  {
+    ...item,
+    start: index === 0 ? 0 : cumulative - (item.value  || item .change ),
+    end: cumulative ,
+    displayV alue: Math .abs(item.change  || item .value ),
+    cumulative : cumulative
+  };
+});
+jsx
+import  React  from  'react' ;
+import  { Bar
