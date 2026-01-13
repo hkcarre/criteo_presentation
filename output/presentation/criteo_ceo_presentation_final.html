@@ -28,7 +28,7 @@
             padding: 0;
             font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
             background-color: #f4f4f4;
-            background-image: url('images/corporate_abstract_light_1767893409482.png');
+            background-image: url('images/background.png');
             background-size: cover;
             background-attachment: fixed;
             overflow: hidden;
@@ -1239,7 +1239,7 @@
                 </div>
 
                 <!-- APPENDIX G: Data Hygiene Protocol -->
-                <div class="slide" data-step="18">
+                <div class="slide" data-step="19">
                     <div class="slide-content">
                         <h1>Appendix G: Data Hygiene Protocol</h1>
                         <div class="insight-box" style="border-left: 5px solid #1976D2; background: #E3F2FD;">
@@ -1303,14 +1303,9 @@
                         slides.forEach((slide, i) => {
                             if (i === currentSlide) {
                                 slide.classList.add('active');
-                                slide.style.display = 'block';
-                                setTimeout(() => slide.style.opacity = '1', 10); // Fade in
+                                // Opacity handled by CSS class .active
                             } else {
                                 slide.classList.remove('active');
-                                slide.style.opacity = '0';
-                                setTimeout(() => {
-                                    if (!slide.classList.contains('active')) slide.style.display = 'none';
-                                }, 400);
                             }
                         });
 
