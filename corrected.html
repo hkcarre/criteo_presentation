@@ -58,6 +58,8 @@
             overflow-x: hidden !important;
             /* Allow scrolling within slide if content is long */
             background: rgba(255, 255, 255, 0.9);
+            isolation: isolate;
+            contain: layout style paint;
         }
 
         .slide.active {
@@ -90,6 +92,9 @@
             border: 1px solid var(--glass-border);
             min-height: 80vh;
             /* Ensure it takes up space */
+        
+            position: relative;
+            isolation: isolate;
         }
 
         /* Typography */
@@ -820,31 +825,7 @@
                 </div>
             </div>
         </div>
-                        <!-- Defense -->
-                        <div style="text-align: center;">
-                            <div style="width: 140px; height: 200px; background: linear-gradient(to bottom, #1976D2, #64B5F6); border-radius: 4px 4px 0 0; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 18px;">-€7.5M</div>
-                            <div style="margin-top: 10px; font-size: 14px; font-weight: bold;">Defense<br>(Whales+AI)</div>
-                        </div>
-                        <!-- Residual Risk -->
-                        <div style="text-align: center;">
-                            <div style="width: 140px; height: 120px; background: linear-gradient(to bottom, #F57C00, #FFB74D); border-radius: 4px 4px 0 0; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 18px;">€6.0M</div>
-                            <div style="margin-top: 10px; font-size: 14px; font-weight: bold;">Residual<br>Risk</div>
-                        </div>
-                        <!-- AI Upside -->
-                        <div style="text-align: center;">
-                            <div style="width: 140px; height: 160px; background: linear-gradient(to bottom, #388E3C, #81C784); border-radius: 4px 4px 0 0; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 18px;">+€3.5M</div>
-                            <div style="margin-top: 10px; font-size: 14px; font-weight: bold;">AI Upside<br>(Innovation)</div>
-                        </div>
-                        <!-- Final Net Risk -->
-                        <div style="text-align: center;">
-                            <div style="width: 140px; height: 50px; background: linear-gradient(to bottom, #455A64, #78909C); border-radius: 4px 4px 0 0; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 18px;">€2.5M</div>
-                            <div style="margin-top: 10px; font-size: 14px; font-weight: bold;">Final Net<br>Risk</div>
-                        </div>
-                    </div>
-                    <div style="margin-top: 30px; padding: 15px; background: #E3F2FD; border-radius: 8px; text-align: center; font-size: 14px;">
-                        <strong style="color: var(--criteo-blue);">82% Risk Mitigation:</strong> Combined defensive tactics (SWAT teams) + offensive innovation (Agentic AI) reduce €13.5M validated risk down to €2.5M net exposure while capturing €3.5M in AI-driven upside.
-                    </div>
-                </div>
+                        
 
                 <div class="so-what-box" style="margin-top: 30px;">
                     <span class="so-what-label">▸ STRATEGIC IMPACT</span>
