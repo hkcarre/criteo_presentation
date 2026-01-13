@@ -1129,485 +1129,486 @@
                         <div class="logo">CRITEO</div>
                     </div>
                 </div>
-
-                <!-- SLIDE 18: APPENDIX F (Strategic Risk Re-assessment) -->
-                <div class="slide" data-step="18">
-                    <div class="slide-content">
-                        <div class="insight-box"
-                            style="background: rgba(220, 53, 69, 0.1); border-left: 4px solid #dc3545; margin-bottom: 20px;">
-                            <strong>⚠ STRATEGIC RISK RE-ASSESSMENT:</strong> Standard metrics underestimate true churn
-                            risk
-                            by
-                            >90%.
-                        </div>
-                        <h1>APPENDIX F: Data Quality & "True Risk" Audit</h1>
-
-                        <div class="grid-2">
-                            <div class="card">
-                                <h2>1. The "Churn Paradox" (Methodology Flaw)</h2>
-                                <p style="font-size: 14px; margin-bottom: 10px;"><strong>Issue:</strong> Standard
-                                    "Revenue
-                                    Lost"
-                                    metric = <em>Competitor Clicks × Current RPC</em>. When a client churns, Criteo
-                                    Revenue
-                                    (and
-                                    RPC) drops to zero, artificially zeroing out the "Risk" metric.</p>
-
-                                <div style="background: rgba(0,0,0,0.03); padding: 10px; border-radius: 6px;">
-                                    <h3 style="color: #333; font-size: 16px; margin: 0 0 5px 0;">Case Study: Client
-                                        31782
-                                        (Churned)</h3>
-                                    <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
-                                        <span>Reported Risk (Current RPC):</span>
-                                        <span style="font-weight: bold; color: #dc3545;">€12,562</span>
-                                    </div>
-                                    <div
-                                        style="display: flex; justify-content: space-between; border-top: 1px solid #ddd; padding-top: 5px;">
-                                        <span>True Risk (Trailing 12-M RPC):</span>
-                                        <span style="font-weight: bold; color: #d0021b;">€153,736,269</span>
-                                    </div>
-                                    <p style="font-size: 12px; color: #666; margin-top: 5px;">*Using Trailing 12-Month
-                                        Avg
-                                        RPC
-                                        of €101.13</p>
-                                </div>
-                            </div>
-
-                            <div class="card">
-                                <h2>2. Sector Impact (The "Travel" Crisis)</h2>
-                                <p style="font-size: 14px; margin-bottom: 10px;">Re-calculating with "Stable RPC"
-                                    reveals
-                                    the
-                                    Travel sector is in a full-blown crisis, masked by value destruction.</p>
-                                <table style="width: 100%; border-collapse: collapse; font-size: 13px;">
-                                    <thead>
-                                        <tr style="border-bottom: 2px solid #ddd; text-align: left;">
-                                            <th style="padding: 5px;">Sector</th>
-                                            <th style="padding: 5px; color: #666;">Reported Risk (2024)</th>
-                                            <th style="padding: 5px; color: #d0021b;">Corrected Risk</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr style="border-bottom: 1px solid #eee;">
-                                            <td style="padding: 8px 5px;"><strong>Travel Services</strong></td>
-                                            <td style="padding: 8px 5px;">€146M</td>
-                                            <td style="padding: 8px 5px; font-weight: bold; color: #d0021b;">€1.5
-                                                BILLION
-                                            </td>
-                                        </tr>
-                                        <tr style="border-bottom: 1px solid #eee;">
-                                            <td style="padding: 8px 5px;">Classifieds/RE</td>
-                                            <td style="padding: 8px 5px;">€189M</td>
-                                            <td style="padding: 8px 5px;">€1.0 BILLION</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-
-                        <div class="card" style="margin-top: 20px;">
-                            <h2>3. The "Hidden Stream" (Infinite RPC)</h2>
-                            <div style="display: flex; gap: 20px; align-items: center;">
-                                <div style="flex: 1;">
-                                    <p style="font-size: 14px;"><strong>Finding:</strong> 15,985 records (~€11.5M
-                                        Revenue)
-                                        have
-                                        <strong>Zero Clicks</strong>.
-                                    </p>
-                                    <p style="font-size: 14px;"><strong>Diagnosis:</strong> 81% of this revenue has NO
-                                        attribution history (clicks) in the prior month.</p>
-                                </div>
-                                <div style="flex: 1; border-left: 2px solid #eee; padding-left: 20px;">
-                                    <p style="font-size: 14px; color: #d0021b;"><strong>Strategic Gap:</strong> We are
-                                        missing
-                                        "View-Through" attribution. Clients are seeing value we aren't explicitly
-                                        claiming
-                                        credit for.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="footer">
-                        <div class="page-number">17 / 18</div>
-                        <div class="logo">CRITEO</div>
-                    </div>
-                </div>
-
-                <!-- APPENDIX G: Data Hygiene Protocol -->
-                <div class="slide" data-step="19">
-                    <div class="slide-content">
-                        <h1>Appendix G: Data Hygiene Protocol</h1>
-                        <div class="insight-box" style="border-left: 5px solid #1976D2; background: #E3F2FD;">
-                            <h4>1. Handling "Ghost Revenue" (Infinite RPC)</h4>
-                            <p><strong>Anomaly:</strong> 4.5% - 6.7% of revenue in Small/XS segments comes from events
-                                with
-                                0
-                                Clicks (Attribution Lag).</p>
-                            <p><strong>Methodology:</strong> Rejected "Min Value" (Clicks=1) to avoid creating 2000x
-                                outliers.
-                            </p>
-                            <p><strong>Protocol:</strong> Adopted <strong>Linear Imputation</strong>
-                                (<code>Clicks = Revenue / Segment Avg RPC</code>). This harmonizes the long-tail data
-                                without
-                                erasing revenue.</p>
-                        </div>
-                    </div>
-                    <div class="footer">
-                        <div class="page-number">18 / 19</div>
-                        <div class="logo">CRITEO</div>
-                    </div>
-                </div>
-
-                <!-- APPENDIX H: DS Models & Methodology (NEW) -->
-                <div class="slide" data-step="20">
-                    <div class="slide-content">
-                        <h1>APPENDIX H: Data Science Models & Methodology</h1>
-                        <p>Summary of the 3 proprietary analytical models used to derive strategic insights (excluding
-                            third-party black-box estimates).</p>
-
-                        <div class="grid-3"
-                            style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; margin-top:20px;">
-
-                            <!-- MODEL 1 -->
-                            <div class="card"
-                                style="background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); border-top: 4px solid #D32F2F;">
-                                <h3 style="color: #D32F2F; margin-top:0;">1. "Realized Drag" Model</h3>
-                                <p style="font-size:12px; color:#666; font-style:italic;">Type: Linear Sensitivity
-                                    Analysis / Elasticity</p>
-                                <div style="font-size:13px; margin-top:10px;">
-                                    <strong>Logic:</strong> Isolated "Cannibalization Events" (Comp Clicks ↑ AND Criteo
-                                    Rev ↓) to calculate market-specific Drag Coefficients ($\beta$).
-                                </div>
-                                <div
-                                    style="margin-top:15px; background:#FFEBEE; padding:10px; border-radius:4px; font-size:13px;">
-                                    <strong>Output:</strong><br>
-                                    Calculated the <strong>€36M</strong> "Floor" of realized revenue bleed.
-                                </div>
-                            </div>
-
-                            <!-- MODEL 2 -->
-                            <div class="card"
-                                style="background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); border-top: 4px solid #0277BD;">
-                                <h3 style="color: #0277BD; margin-top:0;">2. Cannibalization Correlation</h3>
-                                <p style="font-size:12px; color:#666; font-style:italic;">Type: Pearson Correlation
-                                    Coefficient ($r$)</p>
-                                <div style="font-size:13px; margin-top:10px;">
-                                    <strong>Logic:</strong> Time-series analysis of Top 50 "Whale" clients to test
-                                    independence vs. theft.
-                                </div>
-                                <div
-                                    style="margin-top:15px; background:#E1F5FE; padding:10px; border-radius:4px; font-size:13px;">
-                                    <strong>Output:</strong><br>
-                                    <strong>57.5%</strong> of Whales show strong negative correlation ($r \approx
-                                    -0.55$). Proof of active theft.
-                                </div>
-                            </div>
-
-                            <!-- MODEL 3 -->
-                            <div class="card"
-                                style="background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); border-top: 4px solid #FF9800;">
-                                <h3 style="color: #FF9800; margin-top:0;">3. Pareto Concentration</h3>
-                                <p style="font-size:12px; color:#666; font-style:italic;">Type: Power Law Distribution
-                                    (Lorenz Curve)</p>
-                                <div style="font-size:13px; margin-top:10px;">
-                                    <strong>Logic:</strong> Analyzed revenue density across 24,000 clients to identify
-                                    structural fragility.
-                                </div>
-                                <div
-                                    style="margin-top:15px; background:#FFF3E0; padding:10px; border-radius:4px; font-size:13px;">
-                                    <strong>Output:</strong><br>
-                                    <strong>83.1%</strong> of revenue is held by just 10% of clients (The "Efficiency
-                                    Trap").
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="footer">
-                        <div class="page-number">19 / 19</div>
-                        <div class="logo">CRITEO</div>
-                    </div>
-                </div>
-
             </div>
 
-            <!-- Navigation Controls -->
-            <div class="controls">
-                <button class="btn-nav" id="prevBtn" title="Previous Slide">←</button>
-                <button class="btn-nav" id="nextBtn" title="Next Slide">→</button>
+            <!-- SLIDE 18: APPENDIX F (Strategic Risk Re-assessment) -->
+            <div class="slide" data-step="18">
+                <div class="slide-content">
+                    <div class="insight-box"
+                        style="background: rgba(220, 53, 69, 0.1); border-left: 4px solid #dc3545; margin-bottom: 20px;">
+                        <strong>⚠ STRATEGIC RISK RE-ASSESSMENT:</strong> Standard metrics underestimate true churn
+                        risk
+                        by
+                        >90%.
+                    </div>
+                    <h1>APPENDIX F: Data Quality & "True Risk" Audit</h1>
+
+                    <div class="grid-2">
+                        <div class="card">
+                            <h2>1. The "Churn Paradox" (Methodology Flaw)</h2>
+                            <p style="font-size: 14px; margin-bottom: 10px;"><strong>Issue:</strong> Standard
+                                "Revenue
+                                Lost"
+                                metric = <em>Competitor Clicks × Current RPC</em>. When a client churns, Criteo
+                                Revenue
+                                (and
+                                RPC) drops to zero, artificially zeroing out the "Risk" metric.</p>
+
+                            <div style="background: rgba(0,0,0,0.03); padding: 10px; border-radius: 6px;">
+                                <h3 style="color: #333; font-size: 16px; margin: 0 0 5px 0;">Case Study: Client
+                                    31782
+                                    (Churned)</h3>
+                                <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+                                    <span>Reported Risk (Current RPC):</span>
+                                    <span style="font-weight: bold; color: #dc3545;">€12,562</span>
+                                </div>
+                                <div
+                                    style="display: flex; justify-content: space-between; border-top: 1px solid #ddd; padding-top: 5px;">
+                                    <span>True Risk (Trailing 12-M RPC):</span>
+                                    <span style="font-weight: bold; color: #d0021b;">€153,736,269</span>
+                                </div>
+                                <p style="font-size: 12px; color: #666; margin-top: 5px;">*Using Trailing 12-Month
+                                    Avg
+                                    RPC
+                                    of €101.13</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <h2>2. Sector Impact (The "Travel" Crisis)</h2>
+                            <p style="font-size: 14px; margin-bottom: 10px;">Re-calculating with "Stable RPC"
+                                reveals
+                                the
+                                Travel sector is in a full-blown crisis, masked by value destruction.</p>
+                            <table style="width: 100%; border-collapse: collapse; font-size: 13px;">
+                                <thead>
+                                    <tr style="border-bottom: 2px solid #ddd; text-align: left;">
+                                        <th style="padding: 5px;">Sector</th>
+                                        <th style="padding: 5px; color: #666;">Reported Risk (2024)</th>
+                                        <th style="padding: 5px; color: #d0021b;">Corrected Risk</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr style="border-bottom: 1px solid #eee;">
+                                        <td style="padding: 8px 5px;"><strong>Travel Services</strong></td>
+                                        <td style="padding: 8px 5px;">€146M</td>
+                                        <td style="padding: 8px 5px; font-weight: bold; color: #d0021b;">€1.5
+                                            BILLION
+                                        </td>
+                                    </tr>
+                                    <tr style="border-bottom: 1px solid #eee;">
+                                        <td style="padding: 8px 5px;">Classifieds/RE</td>
+                                        <td style="padding: 8px 5px;">€189M</td>
+                                        <td style="padding: 8px 5px;">€1.0 BILLION</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="card" style="margin-top: 20px;">
+                        <h2>3. The "Hidden Stream" (Infinite RPC)</h2>
+                        <div style="display: flex; gap: 20px; align-items: center;">
+                            <div style="flex: 1;">
+                                <p style="font-size: 14px;"><strong>Finding:</strong> 15,985 records (~€11.5M
+                                    Revenue)
+                                    have
+                                    <strong>Zero Clicks</strong>.
+                                </p>
+                                <p style="font-size: 14px;"><strong>Diagnosis:</strong> 81% of this revenue has NO
+                                    attribution history (clicks) in the prior month.</p>
+                            </div>
+                            <div style="flex: 1; border-left: 2px solid #eee; padding-left: 20px;">
+                                <p style="font-size: 14px; color: #d0021b;"><strong>Strategic Gap:</strong> We are
+                                    missing
+                                    "View-Through" attribution. Clients are seeing value we aren't explicitly
+                                    claiming
+                                    credit for.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="page-number">17 / 18</div>
+                    <div class="logo">CRITEO</div>
+                </div>
             </div>
 
-            <!-- Progress Bar -->
-            <div class="progress-container">
-                <div class="progress-bar" id="progressBar"></div>
+            <!-- APPENDIX G: Data Hygiene Protocol -->
+            <div class="slide" data-step="19">
+                <div class="slide-content">
+                    <h1>Appendix G: Data Hygiene Protocol</h1>
+                    <div class="insight-box" style="border-left: 5px solid #1976D2; background: #E3F2FD;">
+                        <h4>1. Handling "Ghost Revenue" (Infinite RPC)</h4>
+                        <p><strong>Anomaly:</strong> 4.5% - 6.7% of revenue in Small/XS segments comes from events
+                            with
+                            0
+                            Clicks (Attribution Lag).</p>
+                        <p><strong>Methodology:</strong> Rejected "Min Value" (Clicks=1) to avoid creating 2000x
+                            outliers.
+                        </p>
+                        <p><strong>Protocol:</strong> Adopted <strong>Linear Imputation</strong>
+                            (<code>Clicks = Revenue / Segment Avg RPC</code>). This harmonizes the long-tail data
+                            without
+                            erasing revenue.</p>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="page-number">18 / 19</div>
+                    <div class="logo">CRITEO</div>
+                </div>
             </div>
 
-            <!-- Scripts -->
-            <script>
-                // SLIDESHOW LOGIC
-                document.addEventListener('DOMContentLoaded', () => {
-                    const slides = document.querySelectorAll('.slide');
-                    const prevBtn = document.getElementById('prevBtn');
-                    const nextBtn = document.getElementById('nextBtn');
-                    const progressBar = document.getElementById('progressBar');
-                    let currentSlide = 0;
+            <!-- APPENDIX H: DS Models & Methodology (NEW) -->
+            <div class="slide" data-step="20">
+                <div class="slide-content">
+                    <h1>APPENDIX H: Data Science Models & Methodology</h1>
+                    <p>Summary of the 3 proprietary analytical models used to derive strategic insights (excluding
+                        third-party black-box estimates).</p>
 
-                    function updateSlide(index) {
-                        if (index < 0) index = 0;
-                        if (index >= slides.length) index = slides.length - 1;
+                    <div class="grid-3"
+                        style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; margin-top:20px;">
 
-                        currentSlide = index;
+                        <!-- MODEL 1 -->
+                        <div class="card"
+                            style="background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); border-top: 4px solid #D32F2F;">
+                            <h3 style="color: #D32F2F; margin-top:0;">1. "Realized Drag" Model</h3>
+                            <p style="font-size:12px; color:#666; font-style:italic;">Type: Linear Sensitivity
+                                Analysis / Elasticity</p>
+                            <div style="font-size:13px; margin-top:10px;">
+                                <strong>Logic:</strong> Isolated "Cannibalization Events" (Comp Clicks ↑ AND Criteo
+                                Rev ↓) to calculate market-specific Drag Coefficients ($\beta$).
+                            </div>
+                            <div
+                                style="margin-top:15px; background:#FFEBEE; padding:10px; border-radius:4px; font-size:13px;">
+                                <strong>Output:</strong><br>
+                                Calculated the <strong>€36M</strong> "Floor" of realized revenue bleed.
+                            </div>
+                        </div>
 
-                        // [NEW] Hide Global Logo on Title Slide (Slide 1, Index 0)
-                        const globalLogo = document.querySelector('.global-logo');
-                        if (globalLogo) {
-                            // If index is 0 (Title Slide), hide logo. Else show it.
-                            globalLogo.style.display = (index === 0) ? 'none' : 'block';
-                        }
+                        <!-- MODEL 2 -->
+                        <div class="card"
+                            style="background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); border-top: 4px solid #0277BD;">
+                            <h3 style="color: #0277BD; margin-top:0;">2. Cannibalization Correlation</h3>
+                            <p style="font-size:12px; color:#666; font-style:italic;">Type: Pearson Correlation
+                                Coefficient ($r$)</p>
+                            <div style="font-size:13px; margin-top:10px;">
+                                <strong>Logic:</strong> Time-series analysis of Top 50 "Whale" clients to test
+                                independence vs. theft.
+                            </div>
+                            <div
+                                style="margin-top:15px; background:#E1F5FE; padding:10px; border-radius:4px; font-size:13px;">
+                                <strong>Output:</strong><br>
+                                <strong>57.5%</strong> of Whales show strong negative correlation ($r \approx
+                                -0.55$). Proof of active theft.
+                            </div>
+                        </div>
 
-                        // Update active class
-                        slides.forEach((slide, i) => {
-                            if (i === currentSlide) {
-                                slide.classList.add('active');
-                                // Opacity handled by CSS class .active
-                            } else {
-                                slide.classList.remove('active');
-                            }
-                        });
+                        <!-- MODEL 3 -->
+                        <div class="card"
+                            style="background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); border-top: 4px solid #FF9800;">
+                            <h3 style="color: #FF9800; margin-top:0;">3. Pareto Concentration</h3>
+                            <p style="font-size:12px; color:#666; font-style:italic;">Type: Power Law Distribution
+                                (Lorenz Curve)</p>
+                            <div style="font-size:13px; margin-top:10px;">
+                                <strong>Logic:</strong> Analyzed revenue density across 24,000 clients to identify
+                                structural fragility.
+                            </div>
+                            <div
+                                style="margin-top:15px; background:#FFF3E0; padding:10px; border-radius:4px; font-size:13px;">
+                                <strong>Output:</strong><br>
+                                <strong>83.1%</strong> of revenue is held by just 10% of clients (The "Efficiency
+                                Trap").
+                            </div>
+                        </div>
 
-                        // Update progress
-                        const progress = ((currentSlide + 1) / slides.length) * 100;
-                        progressBar.style.width = `${progress}%`;
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="page-number">19 / 19</div>
+                    <div class="logo">CRITEO</div>
+                </div>
+            </div>
 
-                        // Update controls
-                        prevBtn.disabled = currentSlide === 0;
-                        nextBtn.disabled = currentSlide === slides.length - 1;
+        </div>
+
+        <!-- Navigation Controls -->
+        <div class="controls">
+            <button class="btn-nav" id="prevBtn" title="Previous Slide">←</button>
+            <button class="btn-nav" id="nextBtn" title="Next Slide">→</button>
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+
+        <!-- Scripts -->
+        <script>
+            // SLIDESHOW LOGIC
+            document.addEventListener('DOMContentLoaded', () => {
+                const slides = document.querySelectorAll('.slide');
+                const prevBtn = document.getElementById('prevBtn');
+                const nextBtn = document.getElementById('nextBtn');
+                const progressBar = document.getElementById('progressBar');
+                let currentSlide = 0;
+
+                function updateSlide(index) {
+                    if (index < 0) index = 0;
+                    if (index >= slides.length) index = slides.length - 1;
+
+                    currentSlide = index;
+
+                    // [NEW] Hide Global Logo on Title Slide (Slide 1, Index 0)
+                    const globalLogo = document.querySelector('.global-logo');
+                    if (globalLogo) {
+                        // If index is 0 (Title Slide), hide logo. Else show it.
+                        globalLogo.style.display = (index === 0) ? 'none' : 'block';
                     }
 
-                    // Button Events
-                    prevBtn.addEventListener('click', () => updateSlide(currentSlide - 1));
-                    nextBtn.addEventListener('click', () => updateSlide(currentSlide + 1));
-
-                    // Keyboard Events
-                    document.addEventListener('keydown', (e) => {
-                        if (e.key === 'ArrowRight' || e.key === ' ') updateSlide(currentSlide + 1);
-                        if (e.key === 'ArrowLeft') updateSlide(currentSlide - 1);
+                    // Update active class
+                    slides.forEach((slide, i) => {
+                        if (i === currentSlide) {
+                            slide.classList.add('active');
+                            // Opacity handled by CSS class .active
+                        } else {
+                            slide.classList.remove('active');
+                        }
                     });
 
-                    // Initialize
-                    updateSlide(0);
+                    // Update progress
+                    const progress = ((currentSlide + 1) / slides.length) * 100;
+                    progressBar.style.width = `${progress}%`;
+
+                    // Update controls
+                    prevBtn.disabled = currentSlide === 0;
+                    nextBtn.disabled = currentSlide === slides.length - 1;
+                }
+
+                // Button Events
+                prevBtn.addEventListener('click', () => updateSlide(currentSlide - 1));
+                nextBtn.addEventListener('click', () => updateSlide(currentSlide + 1));
+
+                // Keyboard Events
+                document.addEventListener('keydown', (e) => {
+                    if (e.key === 'ArrowRight' || e.key === ' ') updateSlide(currentSlide + 1);
+                    if (e.key === 'ArrowLeft') updateSlide(currentSlide - 1);
                 });
 
-                // CHART DATA & INITIALIZATION
-                document.addEventListener('DOMContentLoaded', function () {
+                // Initialize
+                updateSlide(0);
+            });
 
-                    // 1. Threat Evolution Chart
-                    const ctx1 = document.getElementById('threatEvolutionChart');
-                    if (ctx1) {
-                        new Chart(ctx1, {
-                            type: 'line',
-                            data: {
-                                labels: ['2022-01', '2022-04', '2022-07', '2022-10', '2023-01', '2023-04', '2023-07', '2023-10', '2024-01', '2024-04', '2024-07', '2024-10'],
-                                datasets: [{
-                                    label: 'Competitor Click Share %',
-                                    data: [5.8, 4.6, 4.5, 2.4, 5.1, 20.7, 16.8, 21.4, 21.5, 21.8, 25.6, 27.1],
-                                    borderColor: '#FF5722',
-                                    backgroundColor: 'rgba(255, 87, 34, 0.1)',
-                                    borderWidth: 3,
+            // CHART DATA & INITIALIZATION
+            document.addEventListener('DOMContentLoaded', function () {
+
+                // 1. Threat Evolution Chart
+                const ctx1 = document.getElementById('threatEvolutionChart');
+                if (ctx1) {
+                    new Chart(ctx1, {
+                        type: 'line',
+                        data: {
+                            labels: ['2022-01', '2022-04', '2022-07', '2022-10', '2023-01', '2023-04', '2023-07', '2023-10', '2024-01', '2024-04', '2024-07', '2024-10'],
+                            datasets: [{
+                                label: 'Competitor Click Share %',
+                                data: [5.8, 4.6, 4.5, 2.4, 5.1, 20.7, 16.8, 21.4, 21.5, 21.8, 25.6, 27.1],
+                                borderColor: '#FF5722',
+                                backgroundColor: 'rgba(255, 87, 34, 0.1)',
+                                borderWidth: 3,
+                                fill: true,
+                                tension: 0.4
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: false,
+                            plugins: { legend: { display: false } },
+                            scales: {
+                                y: {
+                                    display: true,
+                                    title: { display: true, text: 'Competitor Click Share (%)' }
+                                },
+                                x: {
+                                    grid: { display: false },
+                                    title: { display: true, text: 'Quarter' }
+                                }
+                            }
+                        }
+                    });
+                }
+
+                // 2. Launches Chart (Stacked "Layer Cake" - Recovered)
+                const ctx2 = document.getElementById('launchesChart');
+                if (ctx2) {
+                    new Chart(ctx2, {
+                        type: 'line',
+                        data: {
+                            labels: ['Q1 22', 'Q2 22', 'Q3 22', 'Q4 22', 'Q1 23', 'Q2 23', 'Q3 23', 'Q4 23', 'Q1 24', 'Q2 24', 'Q3 24', 'Q4 24'],
+                            datasets: [
+                                {
+                                    label: '2022 Cohort',
+                                    data: [100, 300, 450, 500, 510, 520, 515, 520, 522, 525, 520, 522], // Base layer (Persistent)
+                                    borderColor: '#0066CC', // Criteo Blue
+                                    backgroundColor: 'rgba(0, 102, 204, 0.8)',
                                     fill: true,
                                     tension: 0.4
-                                }]
-                            },
-                            options: {
-                                responsive: true,
-                                maintainAspectRatio: false,
-                                plugins: { legend: { display: false } },
-                                scales: {
-                                    y: {
-                                        display: true,
-                                        title: { display: true, text: 'Competitor Click Share (%)' }
-                                    },
-                                    x: {
-                                        grid: { display: false },
-                                        title: { display: true, text: 'Quarter' }
-                                    }
-                                }
-                            }
-                        });
-                    }
-
-                    // 2. Launches Chart (Stacked "Layer Cake" - Recovered)
-                    const ctx2 = document.getElementById('launchesChart');
-                    if (ctx2) {
-                        new Chart(ctx2, {
-                            type: 'line',
-                            data: {
-                                labels: ['Q1 22', 'Q2 22', 'Q3 22', 'Q4 22', 'Q1 23', 'Q2 23', 'Q3 23', 'Q4 23', 'Q1 24', 'Q2 24', 'Q3 24', 'Q4 24'],
-                                datasets: [
-                                    {
-                                        label: '2022 Cohort',
-                                        data: [100, 300, 450, 500, 510, 520, 515, 520, 522, 525, 520, 522], // Base layer (Persistent)
-                                        borderColor: '#0066CC', // Criteo Blue
-                                        backgroundColor: 'rgba(0, 102, 204, 0.8)',
-                                        fill: true,
-                                        tension: 0.4
-                                    },
-                                    {
-                                        label: '2023 Cohort',
-                                        data: [0, 0, 0, 0, 200, 500, 800, 950, 980, 1000, 1020, 1050], // Middle layer
-                                        borderColor: '#FF5722', // Criteo Orange
-                                        backgroundColor: 'rgba(255, 87, 34, 0.8)',
-                                        fill: true,
-                                        tension: 0.4
-                                    },
-                                    {
-                                        label: '2024 Cohort',
-                                        data: [0, 0, 0, 0, 0, 0, 0, 0, 300, 800, 1200, 1600], // Newest layer
-                                        borderColor: '#FFCCBC', // Very light orange
-                                        backgroundColor: 'rgba(255, 204, 188, 0.8)',
-                                        fill: true,
-                                        tension: 0.4
-                                    }
-                                ]
-                            },
-                            options: {
-                                responsive: true,
-                                maintainAspectRatio: false,
-                                plugins: {
-                                    legend: { display: true, position: 'top' },
-                                    tooltip: { mode: 'index', intersect: false }
                                 },
-                                scales: {
-                                    y: { stacked: true, beginAtZero: true, title: { display: true, text: 'Cumulative Clients' } },
-                                    x: {
-                                        grid: { display: false },
-                                        title: { display: true, text: 'Quarter' }
-                                    }
-                                }
-                            }
-                        });
-                    }
-
-                    // 3. Market Heatmap
-                    const ctx3 = document.getElementById('marketHeatmapChart');
-                    if (ctx3) {
-                        new Chart(ctx3, {
-                            type: 'bar',
-                            data: {
-                                labels: ['IBERIA', 'RUSSIA', 'E. EUROPE', 'ITALY', 'UK', 'DACH', 'FRANCE'],
-                                datasets: [{
-                                    label: 'Risk Score',
-                                    data: [90, 86, 85, 75, 60, 50, 40],
-                                    backgroundColor: ['#D32F2F', '#F57C00', '#D32F2F', '#E64A19', '#FF9800', '#FF9800', '#4CAF50']
-                                }]
-                            },
-                            options: {
-                                indexAxis: 'y',
-                                responsive: true,
-                                maintainAspectRatio: false,
-                                plugins: {
-                                    legend: { display: false },
-                                    title: { display: true, text: 'Southern Europe Bleeds Fastest: ES & IT Require Immediate Defense', position: 'bottom' }
+                                {
+                                    label: '2023 Cohort',
+                                    data: [0, 0, 0, 0, 200, 500, 800, 950, 980, 1000, 1020, 1050], // Middle layer
+                                    borderColor: '#FF5722', // Criteo Orange
+                                    backgroundColor: 'rgba(255, 87, 34, 0.8)',
+                                    fill: true,
+                                    tension: 0.4
                                 },
-                                scales: {
-                                    x: { title: { display: true, text: 'Risk Score (0-100)' } }
+                                {
+                                    label: '2024 Cohort',
+                                    data: [0, 0, 0, 0, 0, 0, 0, 0, 300, 800, 1200, 1600], // Newest layer
+                                    borderColor: '#FFCCBC', // Very light orange
+                                    backgroundColor: 'rgba(255, 204, 188, 0.8)',
+                                    fill: true,
+                                    tension: 0.4
+                                }
+                            ]
+                        },
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: false,
+                            plugins: {
+                                legend: { display: true, position: 'top' },
+                                tooltip: { mode: 'index', intersect: false }
+                            },
+                            scales: {
+                                y: { stacked: true, beginAtZero: true, title: { display: true, text: 'Cumulative Clients' } },
+                                x: {
+                                    grid: { display: false },
+                                    title: { display: true, text: 'Quarter' }
                                 }
                             }
-                        });
-                    }
+                        }
+                    });
+                }
 
-                    // 4. Client Risk Chart (Existing)
-                    const ctx4 = document.getElementById('clientRiskChart');
-                    if (ctx4) {
-                        new Chart(ctx4, {
-                            type: 'bar',
-                            data: {
-                                labels: ['Client A', 'Client B', 'Client C', 'Client D', 'Client E'],
-                                datasets: [{
-                                    label: 'Risk Score',
-                                    data: [98, 92, 88, 85, 82],
-                                    backgroundColor: '#E64A19'
-                                }]
+                // 3. Market Heatmap
+                const ctx3 = document.getElementById('marketHeatmapChart');
+                if (ctx3) {
+                    new Chart(ctx3, {
+                        type: 'bar',
+                        data: {
+                            labels: ['IBERIA', 'RUSSIA', 'E. EUROPE', 'ITALY', 'UK', 'DACH', 'FRANCE'],
+                            datasets: [{
+                                label: 'Risk Score',
+                                data: [90, 86, 85, 75, 60, 50, 40],
+                                backgroundColor: ['#D32F2F', '#F57C00', '#D32F2F', '#E64A19', '#FF9800', '#FF9800', '#4CAF50']
+                            }]
+                        },
+                        options: {
+                            indexAxis: 'y',
+                            responsive: true,
+                            maintainAspectRatio: false,
+                            plugins: {
+                                legend: { display: false },
+                                title: { display: true, text: 'Southern Europe Bleeds Fastest: ES & IT Require Immediate Defense', position: 'bottom' }
                             },
-                            options: {
-                                responsive: true,
-                                maintainAspectRatio: false,
-                                plugins: { legend: { display: false } },
-                                scales: {
-                                    y: {
-                                        beginAtZero: true,
-                                        max: 100,
-                                        title: { display: true, text: 'Risk Score' }
-                                    },
-                                    x: {
-                                        title: { display: true, text: 'Top Risk Accounts' }
-                                    }
+                            scales: {
+                                x: { title: { display: true, text: 'Risk Score (0-100)' } }
+                            }
+                        }
+                    });
+                }
+
+                // 4. Client Risk Chart (Existing)
+                const ctx4 = document.getElementById('clientRiskChart');
+                if (ctx4) {
+                    new Chart(ctx4, {
+                        type: 'bar',
+                        data: {
+                            labels: ['Client A', 'Client B', 'Client C', 'Client D', 'Client E'],
+                            datasets: [{
+                                label: 'Risk Score',
+                                data: [98, 92, 88, 85, 82],
+                                backgroundColor: '#E64A19'
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: false,
+                            plugins: { legend: { display: false } },
+                            scales: {
+                                y: {
+                                    beginAtZero: true,
+                                    max: 100,
+                                    title: { display: true, text: 'Risk Score' }
+                                },
+                                x: {
+                                    title: { display: true, text: 'Top Risk Accounts' }
                                 }
                             }
-                        });
-                    }
+                        }
+                    });
+                }
 
-                    // 5. [NEW] Risk Waterfall Chart (Slide 8)
-                    // REFACTORED: Per "Senior Analyst" Tutorial Standards (Net Value Bridge)
-                    const ctx5 = document.getElementById('waterfallRiskChart');
-                    if (ctx5) {
-                        new Chart(ctx5, {
-                            type: 'bar',
-                            data: {
-                                labels: ['Total Risk', 'Profitability Filter', 'Addressable Risk', 'Phalanx Save', 'Net Risk'],
-                                datasets: [{
-                                    label: 'Revenue (€ Millions)',
-                                    data: [
-                                        [0, 132],       // 1. Total Risk: 0 to 132
-                                        [76.9, 132],    // 2. Filter: Drops from 132 to 76.9
-                                        [0, 76.9],      // 3. Addressable: 0 to 76.9 (Checkpoint)
-                                        [53.2, 76.9],   // 4. Save: Drops from 76.9 to 53.2
-                                        [0, 53.2]       // 5. Net Risk: 0 to 53.2
-                                    ],
-                                    backgroundColor: [
-                                        '#B71C1C', // Total (Red)
-                                        '#9E9E9E', // Filter (Gray)
-                                        '#D32F2F', // Addressable (Dark Red)
-                                        '#4CAF50', // Save (Green)
-                                        '#FF9800'  // Net (Orange)
-                                    ],
-                                    barPercentage: 0.6,
-                                }]
-                            },
-                            options: {
-                                responsive: true,
-                                maintainAspectRatio: false,
-                                plugins: {
-                                    legend: { display: false },
-                                    tooltip: {
-                                        callbacks: {
-                                            label: function (context) {
-                                                const v = context.raw;
-                                                const diff = Math.abs(v[1] - v[0]).toFixed(1);
-                                                return ' Value: €' + diff + 'M';
-                                            }
+                // 5. [NEW] Risk Waterfall Chart (Slide 8)
+                // REFACTORED: Per "Senior Analyst" Tutorial Standards (Net Value Bridge)
+                const ctx5 = document.getElementById('waterfallRiskChart');
+                if (ctx5) {
+                    new Chart(ctx5, {
+                        type: 'bar',
+                        data: {
+                            labels: ['Total Risk', 'Profitability Filter', 'Addressable Risk', 'Phalanx Save', 'Net Risk'],
+                            datasets: [{
+                                label: 'Revenue (€ Millions)',
+                                data: [
+                                    [0, 132],       // 1. Total Risk: 0 to 132
+                                    [76.9, 132],    // 2. Filter: Drops from 132 to 76.9
+                                    [0, 76.9],      // 3. Addressable: 0 to 76.9 (Checkpoint)
+                                    [53.2, 76.9],   // 4. Save: Drops from 76.9 to 53.2
+                                    [0, 53.2]       // 5. Net Risk: 0 to 53.2
+                                ],
+                                backgroundColor: [
+                                    '#B71C1C', // Total (Red)
+                                    '#9E9E9E', // Filter (Gray)
+                                    '#D32F2F', // Addressable (Dark Red)
+                                    '#4CAF50', // Save (Green)
+                                    '#FF9800'  // Net (Orange)
+                                ],
+                                barPercentage: 0.6,
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: false,
+                            plugins: {
+                                legend: { display: false },
+                                tooltip: {
+                                    callbacks: {
+                                        label: function (context) {
+                                            const v = context.raw;
+                                            const diff = Math.abs(v[1] - v[0]).toFixed(1);
+                                            return ' Value: €' + diff + 'M';
                                         }
-                                    },
-                                    title: {
-                                        display: true,
-                                        text: 'Net Value Bridge: Focusing on High-ROI Risk'
                                     }
                                 },
-                                scales: {
-                                    y: {
-                                        title: { display: true, text: 'Revenue at Risk (€ Millions)' },
-                                        min: 0,
-                                        max: 150
-                                    },
-                                    x: {
-                                        grid: { display: false }
-                                    }
+                                title: {
+                                    display: true,
+                                    text: 'Net Value Bridge: Focusing on High-ROI Risk'
+                                }
+                            },
+                            scales: {
+                                y: {
+                                    title: { display: true, text: 'Revenue at Risk (€ Millions)' },
+                                    min: 0,
+                                    max: 150
+                                },
+                                x: {
+                                    grid: { display: false }
                                 }
                             }
-                        });
-                    }
-                });
-            </script>
+                        }
+                    });
+                }
+            });
+        </script>
 </body>
 
 </html>
