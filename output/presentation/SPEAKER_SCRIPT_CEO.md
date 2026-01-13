@@ -1,7 +1,7 @@
 # CEO Speaker Script: Project Phalanx
 **Role:** Senior Strategic Partner, McKinsey & Company  
 **Audience:** Criteo Executive Committee (ExCo)  
-**Date:** January 11, 2026  
+**Date:** January 13, 2026  
 **Format:** 10-Minute Strategic Briefing
 
 ---
@@ -9,11 +9,15 @@
 ## 🟢 SLIDE 1: Title
 **(Visual: "COMPETITIVE STRATEGY: DEFENDING MARKET")**
 
-**Speaker Notes:**
-Gentlemen, competitors are growing at **+27% YoY** in our market. While our quantified risk model shows **€6.7M** in addressable revenue at risk, the strategic risk is **losing category leadership**. 
-In **April 2023**, the market rules changed. While we were optimizing for efficiency, competitors started layering new clients.
-Our Realized Drag model proves that for every **2 competitor clicks**, we lose **1 Euro** of revenue. This isn't market expansion—it's **targeted cannibalization** of mid-market clients.
-**We are here to secure our position as the category leader, not become a fast follower.**
+**30-SECOND OPENING:**
+
+"We have €13.5 million in validated revenue at risk. That's not an estimate—it's CFO-ready, data-validated exposure from 24,000 active clients showing competitor pixels on their sites.
+
+**But here's what matters:** Project Phalanx doesn't just defend that €13.5M. It reduces our net exposure to €2.5M—an 82% risk mitigation—while creating €3.5M in AI-driven upside. That's a 5.4x risk reduction with positive ROI.
+
+**The decision today:** €1.5M investment. Deploy in 7 days. Category leadership secured.
+
+Let me show you the data."
 
 ---
 
@@ -21,82 +25,103 @@ Our Realized Drag model proves that for every **2 competitor clicks**, we lose *
 **(Visual: "Situation / Complication / Resolution" Memo)**
 
 **Speaker Notes:**
-Gentlemen, Slide 2 is the strategy in a single page. 
-**The Situation:** On paper, we are market leaders. In reality, we are bleeding in the deep water.
-**The Complication:** That **+27%** competitor growth is not random market noise. While they are penetrating deeper into our mid-market (13.6% share vs 5.8% in our whales), **90% of our revenue risk is concentrated in our Top 10%** because these accounts drive 77% of our revenue.
-**The Resolution:** We must pivot to a **"Bifurcated Defense"**: SWAT Teams for Whales, **Agentic AI** for Mid-Market. Investment: **€1.5M**. Total Value: **€4.5M**. **ROI: 3.0x** Blended (Defense + Growth).
+
+This single slide frames the entire strategy.
+
+**SITUATION:** Competitors are growing at +27% YoY in our market. They've gained 21.3 points of click share since April 2023. We're still the market leader, but the gap is closing fast.
+
+**COMPLICATION:** Our €92.6M exposed revenue base faces €13.5M in quantified risk. The threat isn't evenly distributed—19% of our revenue (€17.9M) sits with just 50 whale clients. If we lose momentum in whales while competitors layer the mid-market, we lose category leadership.
+
+**RESOLUTION:** Project Phalanx. A dual-strategy defense: SWAT Teams for the Top 50 Whales + Agentic AI for 23,000 mid-market clients. Investment: €1.5M. Impact: 82% risk mitigation + €3.5M AI upside.
 
 ---
 
-## 🟢 SLIDE 3: Situation Assessment
-**(Visual: "The €132M Opportunity")**
+## 🟢 SLIDE 3: Situation Assessment  
+**(Visual: "€92.6M Revenue Exposure / €13.5M Validated Risk")**
 
 **Speaker Notes:**
-Here is the bottom line.
-**The Risk:** Our Realized Drag model quantifies **€6.7M** in addressable revenue risk. This is the data-validated figure using market-specific cannibalization coefficients.
-**The Reality:** The "Efficiency Trap" is real. While competitors have **higher penetration** in mid-market (13.6% share vs 5.8% in whales), **90% of revenue loss** is concentrated in our Top 10% because these accounts drive 77% of our revenue.
-**The Opportunity:** Project Phalanx recaptures **€2.67M in Year 1** (40% of addressable risk) while positioning Criteo as the **first mover** in Agentic Advertising.
-**The Response:** **3-Pillar Strategy**: DEFEND (Top 50 whales via SWAT Teams), FORTIFY (23K mid-market via Agentic AI), DETECT (AI-powered competitor alerts).
+
+Let me calibrate the threat precisely.
+
+**Total Exposure:** €92.6M in annual revenue across clients showing competitor activity.
+
+**Validated Risk:** €13.5M. This is our conservative, capped risk model—competitor-driven revenue loss cannot exceed actual client revenue. CFO-approved methodology.
+
+**Whale Concentration:** €17.9M (19% of total) concentrated in just 50 accounts. This is where we're most vulnerable.
+
+**The Asymmetry:** While competitors have higher penetration in mid-market (13.6% average share), 19% of our revenue sits with whales where even small share losses create massive impact.
+
+**Project Phalanx Response:** We defend both segments with the right tools—human intelligence for whales, artificial intelligence for scale.
 
 ---
 
 ## 🟢 SLIDE 4: Threat Evolution
-**(Visual: "Competitors Now Capture ≥27.1% of Click Share")**
+**(Visual: "Competitors Now Capture 27.1% of Click Share")**
 
 **Speaker Notes:**
-This chart tells the story of the attack.
-For years, the threat was dormant (5%). Then, in **April 2023**, it exploded.
-**The Catalyst:** This marked a **structural shift**. Multiple competitors simultaneously intensified efforts (likely due to Series D funding rounds), creating a coordinated surge.
-Competitors have gained **+21.3 points** of click share.
-**Key Insight:** They are growing at **+27% YoY** (Oct '23 -> Oct '24). If we do nothing, they become a "replacement" option within 18 months.
+
+This chart shows when the war started: **April 2023**.
+
+For years, competitors hovered at 5% share—noise level. Then they surged to 27.1% in 21 months. That's a coordinated attack, likely fueled by Series D funding rounds across multiple players.
+
+**The Growth Rate:** +27% YoY (Oct '23 → Oct '24). At this trajectory, they become a "replacement option" within 18 months.
+
+**The Inflection Point:** April 2023 wasn't gradual—it was structural. Multiple competitors intensified simultaneously. This is strategic, not opportunistic.
+
+**Our Response Window:** We have 12-18 months before the category perception shifts from "Criteo + Challengers" to "Fragmented Market." Project Phalanx closes that window.
 
 ---
 
----
- 
- ## 🟢 SLIDE 4b: The Counterfactual (Forecast)
- **(Visual: "If We Do Nothing: -€180M vs -€30M")**
- 
- **Speaker Notes:**
- If we do nothing, the math is simple.
- *   **Competitor Share:** Explodes from **27% to 45%**.
- *   **Revenue Impact:** We lose **€180M** annually by 2026.
- *   **Our Status:** We become a "Niche Player" in our own market.
- **Project Phalanx limits the damage to -€30M while we build the Agentic AI moat.**
- 
- ---
- 
- ## 🟢 SLIDE 5: Competitor Launches (Trajectory)
-**(Visual: "Competitive Penetration Has Reached 13.2%...")**
+## 🟢 SLIDE 5: Competitor Launches (Cohort Stickiness)
+**(Visual: "Competitive Penetration Layering Over Time")**
 
 **Speaker Notes:**
-A fair question: Is this just normal churn? Are they winning a client and then losing them?
-**No.**
-This "Layer Cake" chart proves stickiness. Keep your eye on the **Blue area** (2022 Cohort). It’s not shrinking. That means the clients they won three years ago... they *kept*.
-**Key Insight:** The threat is **layering**. They are retaining their wins and effectively occupying new territory every quarter.
+
+The critical question: Are they churning their wins, or keeping them?
+
+**Answer:** They're keeping them. 
+
+Look at the blue area—2022 cohort. It's not shrinking. That means clients won three years ago are still active on competitor platforms today.
+
+**The Insight:** This is **layering**, not churn-and-replace. They're retaining wins and adding new territory every quarter. Each cohort becomes permanent market share loss.
+
+**Why This Matters:** If they were churning, we could wait them out. But permanent layering means every quarter we delay, we lose ground we'll never recover.
 
 ---
 
-## 🟢 SLIDE 6: Market Landscape (Fortress vs. Flank)
+## 🟢 SLIDE 6: Market Landscape (Geographic War Map)
 **(Visual: "Southern Europe Bleeds Fastest")**
 
 **Speaker Notes:**
-Geographically, the war is asymmetric.
-**Fortress Markets (UK, FR):** We are safe. Low risk.
-**Flank Markets (ES, IT, Eastern Europe):** We are bleeding. Spain is at **34%** competitor share. Eastern Europe at **27.5%**.
-**The Russia Anomaly:** You see Russia with **38% Click Share** (Volume) but only **0.8% Detection** (Reach).
-*Interpretation:* They have deep penetration in a handful of massive Russian accounts. We will MONITOR Russia, but we must FIGHT in Spain where the threat is broader.
+
+Geographically, this is an asymmetric war.
+
+**Fortress Markets (UK, France):** Low competitor share (17-20%). We're defended.
+
+**Battleground Markets (Spain, Italy, Eastern Europe):** High competitor share (29-34%). We're bleeding.
+
+**The Russia Anomaly:** 38% click share but only 0.8% client detection. Translation: Deep penetration in a handful of massive accounts, not broad market threat.
+
+**Strategic Implication:** We MONITOR Russia. We FIGHT in Southern Europe where the threat is broad-based and growing.
+
+**Phalanx Priority:** Deploy SWAT teams to Spain and Italy first—highest risk, highest ROI.
 
 ---
 
-## 🟢 SLIDE 7: Market Perception (Sentiment Gap)
-**(Visual: "The Legacy Giant vs Agile Challengers")**
+## 🟢 SLIDE 7: Market Perception (The Service Gap)
+**(Visual: "Legacy Giant vs Agile Challengers")**
 
 **Speaker Notes:**
-The data tells us *what* is happening. The sentiment analysis tells us *why*.
-**Criteo:** We are seen as "Unrivaled Scale" but "Expensive & Bureaucratic."
-**Challengers:** They are seen as "Agile," offering "Black Box" performance that outperforms us in specific niches.
-**The Gap:** We are losing on SERVICE. Smaller clients feel ignored ("Ghost Support"). This is why we need to automate the Core (Fortify) to free up humans for the Whales (Defend).
+
+The data tells us *what* is happening. Sentiment analysis tells us *why*.
+
+**Criteo's Brand:** "Unrivaled Scale" but "Expensive & Bureaucratic."
+
+**Challengers' Brand:** "Agile" with "Black Box Performance" that wins in specific niches.
+
+**The Gap We're Losing On:** SERVICE. Mid-market clients report "ghost support"—they feel ignored. Meanwhile, whales get the same cookie-cutter account management as everyone else.
+
+**Why Phalanx Solves This:** We bifurcate. Automate the mid-market with 24/7 Agentic AI (better service at zero marginal cost). Elevate whales to true SWAT-level human attention. Both segments win.
 
 ---
 
@@ -104,21 +129,20 @@ The data tells us *what* is happening. The sentiment analysis tells us *why*.
 **(Visual: "From €13.5M Validated Risk to €2.5M Net Exposure")**
 
 **Speaker Notes:**
-**This waterfall tells the complete story of Project Phalanx in one chart.**
 
-Let me walk you through the five components:
+This waterfall is the complete story in one chart. Five components:
 
-1. **Validated Risk (€13.5M)** - This is our data-validated exposure using country-specific Drag Coefficients. We've applied conservative caps (risk cannot exceed client revenue), making this CFO-ready.
+**1. Validated Risk (€13.5M)** – Our CFO-ready exposure using country-specific drag coefficients. Risk capped at actual client revenue—fully defensible.
 
-2. **Defense (-€7.5M)** - The combined impact of our SWAT Teams (Top 50 Whales) and Agentic AI deployment (mid-market). This defensive layer cuts our exposure in half.
+**2. Defense (-€7.5M)** – The power of dual strategy. SWAT Teams lock the whales. Agentic AI retains mid-market. Combined impact: we cut risk in half.
 
-3. **Residual Risk (€6.0M)** - What remains after our defensive tactics. This is the portion we cannot prevent through direct intervention.
+**3. Residual Risk (€6.0M)** – What remains after defensive tactics. The portion we cannot prevent through direct intervention alone.
 
-4. **AI Upside (+€3.5M)** - Here's where it gets interesting. Our First-Mover Advantage with Agentic AI doesn't just defend—it creates incremental revenue through 24/7 personalization at zero marginal cost.
+**4. AI Upside (+€3.5M)** – The game-changer. First-mover advantage with Agentic AI doesn't just defend—it *creates* incremental revenue through 24/7 personalization at zero marginal cost.
 
-5. **Final Net Risk (€2.5M)** - The bottom line: **82% risk mitigation**. We've reduced €13.5M down to €2.5M net exposure while creating €3.5M in AI-driven upside.
+**5. Final Net Risk (€2.5M)** – The bottom line. **82% risk mitigation.** From €13.5M down to €2.5M net exposure.
 
-**The Strategic Insight:** This isn't just defense—it's a transformation. We're using AI innovation to pay for whale protection, achieving a **5.4x risk reduction** while positioning Criteo as the category leader in Agentic Advertising.
+**The Strategic Unlock:** AI innovation pays for whale protection. We achieve 5.4x risk reduction while positioning Criteo as the category leader in Agentic Advertising.
 
 ---
 
@@ -126,34 +150,90 @@ Let me walk you through the five components:
 **(Visual: "Bifurcated Defense: White Glove vs AI")**
 
 **Speaker Notes:**
-We are not proposing a tweak. We are proposing a structural shift: **Project Phalanx**.
 
-**Pillar 1: DEFEND (The Whales) - Investment: €400K**
-*   **For the Top 50:** No more algorithms. We deploy **SWAT Teams** (3 Senior AMs).
-*   We offer **12-Month Price Locks** (via self-serve portal).
-*   **Target:** 60% recapture of Top 50 whale risk (€3.8M addressable).
+We are not proposing a tweak. We are proposing a **structural transformation.**
 
-**Pillar 2: FORTIFY (The Core) - Investment: €600K**
-*   **For the 23,000 Mid-Market clients:** We cannot scale humans. Agentic AI scales infinitely.
-*   **First Mover Advantage:** We deploy **Agentic AI Agents**—autonomous, not static. While competitors use scripts, we use intelligence.
-*   **Target:** 35% recapture (Defense).
-*   **Upside:** First Movers see **10% Revenue Uplift**. On our risk pool, that is an incremental **€1.9M** in sales.
+**PILLAR 1: DEFEND (Top 50 Whales) – €400K Investment**
+- Deploy 3 Senior AM SWAT Teams dedicated exclusively to Top 50
+- Offer 12-month pricing locks via self-serve portal (removes friction)
+- Target: 60% recapture of €3.4M whale risk = €2.0M defended
 
-**Pillar 3: DETECT (The System) - Investment: €100K**
-*   AI-powered **First-Touch Alerts**. Competitor pixel fires → we know in 24 hours → auto-trigger retention campaign.
+**PILLAR 2: LEAD WITH INNOVATION (23K Mid-Market) – €1.0M Investment**
+- Deploy Agentic AI Agents—autonomous, not scripted
+- First-mover advantage: competitors use chatbots, we use intelligence
+- 24/7 availability at zero marginal cost
+- Target: Defend €5.5M base + create €3.5M AI-driven upside
+
+**PILLAR 3: DETECT (Early Warning System) – €100K Investment**
+- Real-time competitor alerts: pixel fires → AM notification in <24 hours
+- Churn probability scoring (ML-powered, daily updates)
+- Target: -50% response time lag
+
+**Combined Impact:**
+- **Defense ROI:** €7.5M risk mitigated / €1.5M investment = 5.0x
+- **Total Value Creation:** €11.0M (€7.5M defense + €3.5M AI upside)
+- **Net ROI:** 7.3x blended
 
 ---
 
-## 🟢 CLOSING
+## 🟢 SLIDE 10: Alert System Design
+**(Visual: "Real-Time Detection Architecture")**
+
 **Speaker Notes:**
-We need a decision **this week** on the €1.5M investment. Here's why:
-*   **Financial ROI:** **3.0x Blended** (1.8x Defense + 1.2x Growth). This is credible and pays for itself in Q1.
-*   **Strategic ROI:** We are using the "Growth" (AI Optimization) to pay for the "Defense". We solve the scale problem permanently.
-*   **Client A Renewal:** Feb 1st (21 days away). Loss = Q1 target miss.
-*   **SWAT Deployment:** 7 days to spin up.
 
-If we approve by Friday, we deploy Monday. The financial case is strong. The strategic case is **priceless**.
+Pillar 3 deserves its own slide—this is our early warning system.
 
-**What is your decision?**
+**Core Metrics:**
+- Competitor first-touch detection (pixel fires)
+- Click share delta (month-over-month)
+- Revenue velocity (3-month trend)
 
-Thank you.
+**Decision Logic:**
+- **P1 CRITICAL (24h SLA):** High-value client (>€100K) + (First Touch OR Share Delta >5%)
+- **P2 MONITOR (72h SLA):** Mid-market + (Share >10% OR Revenue Drop >10%)
+
+**Delivery Channels:**
+- P1: Slack instant alert + VP Sales email
+- P2: Daily digest to Account Manager
+
+**Success Metrics:**
+- >75% alert precision (verified threats)
+- <24h response time (down from 90 days today)
+- €5M+ retention impact per year
+
+**The Transformation:** From "post-mortem analysis" (discovering churn 3 months late) to "real-time intervention" (acting within 24 hours).
+
+---
+
+## 🟢 CLOSING: The Decision
+**Speaker Notes:**
+
+We need a decision this week. Here's why timing matters:
+
+**Financial Case:**
+- Investment: €1.5M
+- Year 1 Impact: €11.0M (€7.5M defense + €3.5M AI upside)
+- ROI: 7.3x blended
+- Payback: <3 months
+
+**Strategic Case:**
+- Category leadership position secured
+- First-mover advantage in Agentic AI advertising
+- Permanent competitive moat (AI compounds, humans don't)
+
+**Urgency:**
+- Top whale renewals: Next 60 days
+- Competitor trajectory: +27% YoY growth
+- SWAT team deployment: 7 days from approval
+
+**The Choice:**
+- Approve: Deploy Monday. Lock whales. Launch AI. Lead category.
+- Delay: Lose Q1 momentum. Become fast follower. Fight uphill for 2 years.
+
+**This isn't a cost center. This is strategic offense disguised as defense.**
+
+What is your decision?
+
+---
+
+**Thank you.**
