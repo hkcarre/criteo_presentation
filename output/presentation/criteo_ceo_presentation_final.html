@@ -42,7 +42,7 @@
             position: relative;
         }
 
-        /* Individual Slide */
+        /* Individual Slide - v4 scroll fix */
         .slide {
             position: absolute;
             top: 0;
@@ -54,7 +54,8 @@
             opacity: 0;
             transition: opacity 0.2s ease-in-out;
             padding: 40px 60px;
-            overflow-y: auto;
+            overflow-y: auto !important;
+            overflow-x: hidden !important;
             /* Allow scrolling within slide if content is long */
             background: rgba(255, 255, 255, 0.9);
         }
