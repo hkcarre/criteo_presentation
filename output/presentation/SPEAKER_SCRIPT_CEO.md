@@ -10,11 +10,12 @@
 **(Visual: "COMPETITIVE STRATEGY: DEFENDING MARKET")**
 
 **Speaker Notes:**
-Gentlemen, right now our P&L says we are safe. But the data says we are standing on a cliff.
-We have discovered that **77% of our revenue** sits with just **10% of our clients**.
-And precisely 20 of those "Whale" accounts are actively testing our competitors today.
-If we lose just *one* of them—Client A—we miss our global Q1 target.
-**We are not here to discuss "market share"; we are here to discuss survival.**
+Gentlemen, look at the Efficiency metric on the screen. It looks like success.
+But I am here to tell you that this "Efficiency" is a trap.
+**In April 2023, the rules of our market changed.** While we were celebrating record margins, our competitors started a war.
+Our new data proves that for every **2 clicks** they gain, we now lose **1 Euro** of realized revenue. This is not "market expansion." It is **cannibalization**.
+We have **€132M** on the table today. We either defend it this week, or we "donate" it to the competition by Q2.
+**We are not here to discuss strategy; we are here to stop the bleeding.**
 
 ---
 
@@ -36,7 +37,7 @@ Gentlemen, Slide 2 is the strategy in a single page.
 Here is the bottom line.
 **The Risk:** We have **€1.4B** in gross revenue exposed to competitors.
 **The Reality:** The "Efficiency Trap" is real. Competitors are not 'carpet bombing' the market; they are **'sniping'** our most valuable assets.
-**The Opportunity:** We have identified **€76.9M** in "Bleeding Revenue" that is addressable immediately.
+**The Opportunity:** We identified **€132M** in total high-churn risk. However, we apply a **Profitability Filter** (excluding high-CAC segments like Finance). This defines our true target: **€76.9M** in addressable, high-ROI revenue.
 **The Response:** We are proposing **Project Phalanx**: A 3-pillar strategy to DEFEND our Whales, FORTIFY our Core, and DETECT threats before they become churn.
 
 ---
@@ -47,12 +48,27 @@ Here is the bottom line.
 **Speaker Notes:**
 This chart tells the story of the attack.
 For years, the threat was dormant (5%). Then, in **April 2023**, it exploded.
+**The Catalyst:** This marked a **structural shift**. Multiple competitors simultaneously intensified efforts (likely due to Series D funding rounds), creating a coordinated surge.
 Competitors have gained **+21.3 points** of click share.
 **Key Insight:** They are growing at **+27% YoY** (Oct '23 -> Oct '24). If we do nothing, they become a "replacement" option within 18 months.
 
 ---
 
-## 🟢 SLIDE 5: Competitor Launches (Trajectory)
+---
+ 
+ ## 🟢 SLIDE 4b: The Counterfactual (Forecast)
+ **(Visual: "If We Do Nothing: -€180M vs -€30M")**
+ 
+ **Speaker Notes:**
+ If we do nothing, the math is simple.
+ *   **Competitor Share:** Explodes from **27% to 45%**.
+ *   **Revenue Impact:** We lose **€180M** annually by 2026.
+ *   **Our Status:** We become a "Niche Player" in our own market.
+ **Project Phalanx limits the damage to -€30M while we build the Agentic AI moat.**
+ 
+ ---
+ 
+ ## 🟢 SLIDE 5: Competitor Launches (Trajectory)
 **(Visual: "Competitive Penetration Has Reached 13.2%...")**
 
 **Speaker Notes:**
@@ -91,15 +107,16 @@ The data tells us *what* is happening. The sentiment analysis tells us *why*.
 
 **Speaker Notes:**
 **This bridge shows exactly what is at stake.**
-The **Red Bars** represent the €132M we *will* lose if we do nothing:
-1.  **-€92.5M** from Bleeding Markets.
-2.  **-€39.5M** from Key Account defections.
-The **Green Bar** is the impact of Project Phalanx:
+**Note:** These categories are deduplicated.
+The **Red Bars** represent the €132M Total Risk.
+**The Gray Bar** represents the €55.1M we *choose* not to fight (Unprofitable Defense).
+This leaves the **Dark Red Bar**: €76.9M Addressable Target.
+The **Green Bar** is the impact of Project Phalanx (+€23.7M).
 *   We recapture **+€23.7M** immediately by locking the Whales.
 **The Bottom Line:** We cannot save everything (gray area), but we *must* secure the green bar to hit Q1 targets.
 We found **20 Whales** that make up 60% of our risk.
 Look at **"Client A (Travel)"**.
-This single client is worth **€3.5M/year** (with a peak month of **€215k**).
+This single client is worth **€1.6M/year** (with a peak month of **€200k**).
 They are essentially managing a "Split Test" between Criteo and Google/RTB House.
 **If we lose Client A, we miss our Global Q1 targets.** Period.
 
@@ -113,11 +130,13 @@ We are not proposing a tweak. We are proposing a structural shift: **Project Pha
 
 **Pillar 1: DEFEND (The Whales)**
 *   **For Client A & the Top 250:** No more algorithms. We deploy **SWAT Teams**.
-*   We offer **12-Month Price Locks**. We secure the revenue at any cost.
+*   We offer **12-Month Price Locks**.
+*   **The Profitability Filter:** We do not chase every euro. We defend aggressively in **Travel** (low cost: $0.45), but we are selective in **Finance** ($0.86), where defense costs eat our margin.
 
 **Pillar 2: FORTIFY (The Core)**
-*   **For the other 23,000 clients:** We cannot scale humans. We use **AI**.
-*   We give them a free "Competitor Radar" tool. We use "Price Optimization" to auto-bid against competitors.
+*   **For the 23,000 Mid-Market clients:** We cannot scale humans.
+*   **Early Mover Advantage:** We pilot **Agentic AI**. While competitors rely on static algorithms, we become the *first* to deploy **Autonomous Agents** for the mid-market.
+*   We also give them a free "Competitor Radar" tool.
 
 **Pillar 3: DETECT (The System)**
 *   We enable **First-Touch Alerts**. If a competitor pixel fires, we know in 24 hours.
@@ -126,6 +145,10 @@ We are not proposing a tweak. We are proposing a structural shift: **Project Pha
 
 ## 🟢 CLOSING
 **Speaker Notes:**
-We need a **Go/No-Go decision** on the €2.5M investment today to deploy the SWAT teams by Monday.
-The cost is €2.5M. The prize is **€76.9M** in protected revenue.
+We need a **Go/No-Go decision TODAY** on the €2.5M investment. Here's why:
+*   **Client A Renewal:** Feb 1st (21 days away).
+*   **Competitor RFPs:** Due Jan 20th (9 days away).
+*   **SWAT Deployment:** Requires 7 days.
+If we approve today, we deploy Monday. If we wait, we miss the window.
+The ROI is **9.5x**. What is your decision?
 Thank you.
